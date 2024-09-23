@@ -1,6 +1,8 @@
 # Created by Jacob Fredriksson
 # https://wiresandwi.fi
-# https://github.com/wiresandwifi???????????
+# https://github.com/wiresandwifi
+
+# Inspired by aaaaaaaaaaaaaaaaaa
 
 import getpass
 import netmiko

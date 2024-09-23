@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Netmiko Send Commands
 Script to send commands from a file to a list of devices (routers and switches running IOS).
 The output is saved in a .txt.
@@ -40,3 +41,9 @@ All credits to Kirk Byers for making [Netmiko](https://github.com/ktbyers/netmik
 
 
 [![published](https://static.production.devnetcloud.com/codeexchange/assets/images/devnet-published.svg)](https://developer.cisco.com/codeexchange/github/repo/andreirapuru/netmiko_send_commands)
+=======
+# Cisco Configure Access Ports
+Python script to configure ONLY access ports on any number of Cisco switches. 
+
+Support both IP and DNS names to connect to Cisco switches.
+>>>>>>> 8dea52a1826f2b9688e720a137c0e85e6b3ebb1d

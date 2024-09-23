@@ -81,10 +81,20 @@ for row in list_of_devices:
 		
 		# Print output from show interfaces switchport using pprint for better visibility
 		pprint.pp(interface_data)
-		# Announce configuration will be sent to the device
-		print ("====== Running commands on", device_template["ip"],"   ======")
+		# Inform that configuration will be sent to the device
+		print("====== Running commands on", device_template["ip"], "   ======")
+		# Open log file and append append timestamp and device IP/hostname
+		log = open("log_file.txt", "a")
+		log.write("\n")
+		log.write("Time: " + current_time)
+		log.write("\n")
+		log.write("Device: " + device_template["ip"])
+		log.write("\n")
+		log.write("Commands executed:")
+		log.write("\n")
+		log.close()
 
-		# For-loop to configure interfaces which matches the "static access" admin_mode
+		# For-loop to configure interfaces matching "admin_mode" == static access, meaning they are access ports
 		for interface in interface_data:
 			if interface["admin_mode"] == "static access":
        		# Enter the specific Access Port before executing commands from CSV
@@ -100,26 +110,25 @@ for row in list_of_devices:
 				output_full_command_list = net_connect.send_config_set(full_command_list)
 				print(output_full_command_list)
 
-				# Append output to log file with timestamp and device IP/hostname
+				# Open log file and append commands that have been run
 				log = open("log_file.txt", "a")
-				log.write("\n")
-				log.write("Time: " + current_time)
-				log.write("\n")
-				log.write("Device: " + device_template["ip"])
 				log.write("\n")
 				log.write(output_full_command_list)
 				log.write("\n")
-				print(Back.CYAN + Fore.BLACK + "====== Finished! Saving Configuration on device", device_template["ip"], " ======" + Style.RESET_ALL)
-				
+				log.close()
+		
 		# Send "do write mem" to device to save configuration
+		print(Back.CYAN + Fore.BLACK + "====== Finished! Saving Configuration on device", device_template["ip"], " ======" + Style.RESET_ALL)		
 		save_now = net_connect.send_config_set("do write mem")
+		log = open("log_file.txt", "a")
+		log.write(save_now)
 		# Disconnect from device
 		net_connect.disconnect()
+		# Close log file
+		log.close()
 		
 		print ("====== Logging OUT from device", device_template["ip"]," ======")
 		print("\n")
-
-
 
 	# Manage and log Authentication Failures to device
 	except AuthenticationException as err1:
@@ -155,8 +164,6 @@ for row in list_of_devices:
 		failed_devices_amount += 1
 		# Add(append) IP address of failed device to list 
 		failed_devices_ip.append(device_template["ip"])
-		# Convert exception error "e" to a string and save in new variable
-		# Save first line of converted exception error (contains failure reason) as variable
 		# Add(append) failure reason of failed connection attempt to list
 		failed_devices_reason.append("Connection to device failed.")
 

@@ -1,0 +1,11 @@
+! Config is automatically saved after ALL commands are done!
+description FREDAG 16:00
+load-interval 30
+!switchport host to set PortFast for both IOS and IOS-XE 
+spanning-tree portfast
+spanning-tree bpduguard enable 
+!spanning-tree guard root
+ power inline port perpetual-poe-ha
+ power inline port 2-event
+ power inline port poe-ha
+storm-control broadcast level pps 200 100

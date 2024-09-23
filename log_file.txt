@@ -1,0 +1,1036 @@
+
+2024-09-20 10:49:38
+sw1.ksdlabb.se
+
+2024-09-20 10:51:12
+Unable to access the device (Authentication failed) sw1.ksdlabb.se
+
+2024-09-20 10:51:12
+Unable to access the device (Authentication failed) 10.10.10.2
+
+2024-09-20 10:51:12
+Unable to access the device (Timeout) 10.10.10.33
+
+2024-09-20 10:51:37
+sw1.ksdlabb.se
+
+2024-09-20 10:54:08
+sw1.ksdlabb.se
+
+2024-09-20 14:30:25
+Unable to access the device (Timeout) sw1.ksdlabb.se
+
+2024-09-20 14:30:25
+Unable to access the device (Timeout) 10.10.10.2
+
+2024-09-20 14:30:52
+sw1.ksdlabb.se
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW1(config)#show interfaces switchport | i Name:|Administrative Mode
+              ^
+% Invalid input detected at '^' marker.
+
+SW1(config)#end
+SW1#
+
+2024-09-20 14:30:52
+sw1.ksdlabb.se
+
+2024-09-20 14:32:52
+sw1.ksdlabb.se
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW1(config)#description TEST1
+              ^
+% Invalid input detected at '^' marker.
+
+SW1(config)#end
+SW1#
+
+2024-09-20 14:32:52
+sw1.ksdlabb.se
+
+2024-09-20 14:35:31
+sw1.ksdlabb.se
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW1(config)#description TEST1
+              ^
+% Invalid input detected at '^' marker.
+
+SW1(config)#end
+SW1#
+
+2024-09-20 14:35:31
+sw1.ksdlabb.se
+
+2024-09-20 14:37:20
+Unable to access the device (Authentication failed) sw1.ksdlabb.se
+
+2024-09-20 14:37:20
+Unable to access the device (Authentication failed) 10.10.10.2
+
+2024-09-20 14:40:25
+Unable to access the device (Authentication failed) sw1.ksdlabb.se
+
+2024-09-20 14:40:25
+Unable to access the device (Authentication failed) 10.10.10.2
+
+2024-09-20 14:53:52
+sw1.ksdlabb.se
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW1(config)#description TEST1
+              ^
+% Invalid input detected at '^' marker.
+
+SW1(config)#end
+SW1#
+
+2024-09-20 14:53:52
+sw1.ksdlabb.se
+
+2024-09-20 14:55:56
+sw1.ksdlabb.se
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW1(config)#description TEST1
+              ^
+% Invalid input detected at '^' marker.
+
+SW1(config)#end
+SW1#
+
+2024-09-20 14:55:56
+sw1.ksdlabb.se
+
+2024-09-20 14:56:30
+Unable to access the device (Authentication failed) sw1.ksdlabb.se
+
+2024-09-20 14:56:30
+Unable to access the device (Authentication failed) 10.10.10.2
+
+2024-09-20 14:56:41
+sw1.ksdlabb.se
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW1(config)#description TEST1
+              ^
+% Invalid input detected at '^' marker.
+
+SW1(config)#end
+SW1#
+
+2024-09-20 14:56:41
+sw1.ksdlabb.se
+
+2024-09-20 14:57:22
+sw1.ksdlabb.se
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW1(config)#description TEST1
+              ^
+% Invalid input detected at '^' marker.
+
+SW1(config)#end
+SW1#
+
+2024-09-20 14:57:22
+sw1.ksdlabb.se
+
+2024-09-20 14:57:48
+sw1.ksdlabb.se
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW1(config)#description TEST1
+              ^
+% Invalid input detected at '^' marker.
+
+SW1(config)#end
+SW1#
+
+2024-09-20 14:57:48
+sw1.ksdlabb.se
+
+2024-09-20 14:59:38
+sw1.ksdlabb.se
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW1(config)#description TEST2
+              ^
+% Invalid input detected at '^' marker.
+
+SW1(config)#end
+SW1#
+
+2024-09-20 14:59:38
+sw1.ksdlabb.se
+
+2024-09-20 15:00:43
+sw1.ksdlabb.se
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW1(config)#description TEST2
+              ^
+% Invalid input detected at '^' marker.
+
+SW1(config)#end
+SW1#
+
+2024-09-20 15:00:43
+sw1.ksdlabb.se
+
+2024-09-20 15:01:41
+sw1.ksdlabb.se
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW1(config)#description TEST2
+              ^
+% Invalid input detected at '^' marker.
+
+SW1(config)#end
+SW1#
+
+2024-09-20 15:01:41
+sw1.ksdlabb.se
+
+2024-09-20 15:05:45
+sw1.ksdlabb.se
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW1(config)#description TEST2
+              ^
+% Invalid input detected at '^' marker.
+
+SW1(config)#
+SW1(config)#
+SW1(config)#description TEST3
+              ^
+% Invalid input detected at '^' marker.
+
+SW1(config)#end
+SW1#
+
+2024-09-20 15:05:45
+sw1.ksdlabb.se
+
+2024-09-20 15:07:29
+Unable to access the device (Timeout) sw1.ksdlabb.se
+
+2024-09-20 15:07:29
+10.10.10.2
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW2(config)#description TEST2
+              ^
+% Invalid input detected at '^' marker.
+
+SW2(config)#
+SW2(config)#
+SW2(config)#description TEST3
+              ^
+% Invalid input detected at '^' marker.
+
+SW2(config)#end
+SW2#
+
+2024-09-20 15:07:29
+10.10.10.2
+
+2024-09-20 15:07:50
+sw1.ksdlabb.se
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW1(config)#description TEST2
+              ^
+% Invalid input detected at '^' marker.
+
+SW1(config)#
+SW1(config)#
+SW1(config)#description TEST3
+              ^
+% Invalid input detected at '^' marker.
+
+SW1(config)#end
+SW1#
+
+2024-09-20 15:07:50
+sw1.ksdlabb.se
+
+2024-09-20 15:09:33
+Unable to access the device (Timeout) sw1.ksdlabb.se
+
+2024-09-20 15:09:33
+10.10.10.2
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW2(config)#description TEST2
+              ^
+% Invalid input detected at '^' marker.
+
+SW2(config)#
+SW2(config)#
+SW2(config)#description TEST3
+              ^
+% Invalid input detected at '^' marker.
+
+SW2(config)#end
+SW2#
+
+2024-09-20 15:09:33
+10.10.10.2
+
+2024-09-20 15:10:42
+sw1.ksdlabb.se
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW1(config)#description TEST2
+              ^
+% Invalid input detected at '^' marker.
+
+SW1(config)#
+SW1(config)#
+SW1(config)#description TEST3
+              ^
+% Invalid input detected at '^' marker.
+
+SW1(config)#end
+SW1#
+
+2024-09-20 15:10:42
+sw1.ksdlabb.se
+
+2024-09-20 15:11:48
+sw1.ksdlabb.se
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW1(config)#description TEST2
+              ^
+% Invalid input detected at '^' marker.
+
+SW1(config)#
+SW1(config)#
+SW1(config)#description TEST3
+              ^
+% Invalid input detected at '^' marker.
+
+SW1(config)#end
+SW1#
+
+2024-09-20 15:11:48
+sw1.ksdlabb.se
+
+2024-09-20 15:19:37
+sw1.ksdlabb.se
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW1(config)#description TEST2
+              ^
+% Invalid input detected at '^' marker.
+
+SW1(config)#
+SW1(config)#
+SW1(config)#description TEST3
+              ^
+% Invalid input detected at '^' marker.
+
+SW1(config)#end
+SW1#
+
+2024-09-20 15:19:37
+sw1.ksdlabb.se
+
+2024-09-20 15:23:56
+sw1.ksdlabb.se
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW1(config)#description TEST2
+              ^
+% Invalid input detected at '^' marker.
+
+SW1(config)#
+SW1(config)#
+SW1(config)#description TEST3
+              ^
+% Invalid input detected at '^' marker.
+
+SW1(config)#end
+SW1#
+
+2024-09-20 15:23:56
+sw1.ksdlabb.se
+
+2024-09-20 15:30:43
+sw1.ksdlabb.se
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW1(config)#description TEST2
+              ^
+% Invalid input detected at '^' marker.
+
+SW1(config)#
+SW1(config)#
+SW1(config)#description TEST3
+              ^
+% Invalid input detected at '^' marker.
+
+SW1(config)#end
+SW1#
+
+2024-09-20 15:30:43
+sw1.ksdlabb.se
+
+2024-09-20 15:34:35
+sw1.ksdlabb.se
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW1(config)#description TEST2
+              ^
+% Invalid input detected at '^' marker.
+
+SW1(config)#end
+SW1#
+
+2024-09-20 15:34:35
+sw1.ksdlabb.se
+
+2024-09-20 15:36:23
+Unable to access the device (Authentication failed) sw1.ksdlabb.se
+
+2024-09-20 15:36:33
+sw1.ksdlabb.se
+
+2024-09-20 15:37:00
+sw1.ksdlabb.se
+
+2024-09-20 15:37:38
+sw1.ksdlabb.se
+
+2024-09-20 15:38:10
+sw1.ksdlabb.se
+
+2024-09-20 15:39:37
+sw1.ksdlabb.se
+
+2024-09-20 15:40:58
+sw1.ksdlabb.se
+
+2024-09-20 15:41:35
+sw1.ksdlabb.se
+
+2024-09-20 15:43:36
+sw1.ksdlabb.se
+
+2024-09-20 15:44:18
+sw1.ksdlabb.se
+
+2024-09-20 15:44:55
+sw1.ksdlabb.se
+
+2024-09-20 15:45:06
+Unable to access the device (Authentication failed) sw1.ksdlabb.se
+
+2024-09-20 15:45:06
+Unable to access the device (Authentication failed) 10.10.10.2
+
+2024-09-20 15:45:48
+sw1.ksdlabb.se
+
+2024-09-20 15:46:18
+Unable to access the device (Authentication failed) sw1.ksdlabb.se
+
+2024-09-20 15:46:18
+Unable to access the device (Authentication failed) 10.10.10.1
+
+2024-09-20 15:46:31
+sw1.ksdlabb.se
+
+
+2024-09-20 15:46:31
+sw1.ksdlabb.se
+
+2024-09-20 15:47:14
+sw1.ksdlabb.se
+
+
+2024-09-20 15:47:14
+sw1.ksdlabb.se
+
+2024-09-20 15:50:15
+sw1.ksdlabb.se
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW1(config)#interface Gi1/0/8
+SW1(config-if)#description FREDAG
+SW1(config-if)#load-interval 30
+SW1(config-if)#spanning-tree portfast
+SW1(config-if)#spanning-tree bpduguard enable
+SW1(config-if)#spanning-tree guard root
+SW1(config-if)#power inline port perpetual-poe-ha
+SW1(config-if)#power inline port 2-event
+SW1(config-if)#power inline port poe-ha
+SW1(config-if)#do wr
+Building configuration...
+[OK]
+SW1(config-if)#end
+SW1#
+
+2024-09-20 15:50:15
+10.10.10.1
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW1(config)#interface Gi1/0/8
+SW1(config-if)#description FREDAG
+SW1(config-if)#load-interval 30
+SW1(config-if)#spanning-tree portfast
+SW1(config-if)#spanning-tree bpduguard enable
+SW1(config-if)#spanning-tree guard root
+SW1(config-if)#power inline port perpetual-poe-ha
+SW1(config-if)#power inline port 2-event
+SW1(config-if)#power inline port poe-ha
+SW1(config-if)#do wr
+Building configuration...
+[OK]
+SW1(config-if)#end
+SW1#
+
+2024-09-20 15:51:32
+sw1.ksdlabb.se
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW1(config)#interface Gi1/0/8
+SW1(config-if)#description FREDAG
+SW1(config-if)#load-interval 30
+SW1(config-if)#spanning-tree portfast
+SW1(config-if)#spanning-tree bpduguard enable
+SW1(config-if)#spanning-tree guard root
+SW1(config-if)#power inline port perpetual-poe-ha
+SW1(config-if)#power inline port 2-event
+SW1(config-if)#power inline port poe-ha
+SW1(config-if)#do wr
+Building configuration...
+[OK]
+SW1(config-if)#end
+SW1#
+
+2024-09-20 15:51:32
+10.10.10.1
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW1(config)#interface Gi1/0/8
+SW1(config-if)#description FREDAG
+SW1(config-if)#load-interval 30
+SW1(config-if)#spanning-tree portfast
+SW1(config-if)#spanning-tree bpduguard enable
+SW1(config-if)#spanning-tree guard root
+SW1(config-if)#power inline port perpetual-poe-ha
+SW1(config-if)#power inline port 2-event
+SW1(config-if)#power inline port poe-ha
+SW1(config-if)#do wr
+Building configuration...
+[OK]
+SW1(config-if)#end
+SW1#
+
+2024-09-20 15:52:26
+sw1.ksdlabb.se
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW1(config)#interface Gi1/0/8
+SW1(config-if)#description FREDAG
+SW1(config-if)#load-interval 30
+SW1(config-if)#spanning-tree portfast
+SW1(config-if)#spanning-tree bpduguard enable
+SW1(config-if)#spanning-tree guard root
+SW1(config-if)#power inline port perpetual-poe-ha
+SW1(config-if)#power inline port 2-event
+SW1(config-if)#power inline port poe-ha
+SW1(config-if)#do wr
+Building configuration...
+[OK]
+SW1(config-if)#end
+SW1#
+
+2024-09-20 15:52:26
+10.10.10.1
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW1(config)#interface Gi1/0/8
+SW1(config-if)#description FREDAG
+SW1(config-if)#load-interval 30
+SW1(config-if)#spanning-tree portfast
+SW1(config-if)#spanning-tree bpduguard enable
+SW1(config-if)#spanning-tree guard root
+SW1(config-if)#power inline port perpetual-poe-ha
+SW1(config-if)#power inline port 2-event
+SW1(config-if)#power inline port poe-ha
+SW1(config-if)#end
+SW1#
+
+2024-09-20 15:53:05
+sw1.ksdlabb.se
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW1(config)#interface Gi1/0/8
+SW1(config-if)#description FREDAG
+SW1(config-if)#load-interval 30
+SW1(config-if)#spanning-tree portfast
+SW1(config-if)#spanning-tree bpduguard enable
+SW1(config-if)#spanning-tree guard root
+SW1(config-if)#power inline port perpetual-poe-ha
+SW1(config-if)#power inline port 2-event
+SW1(config-if)#power inline port poe-ha
+SW1(config-if)#end
+SW1#
+
+2024-09-20 15:53:05
+10.10.10.1
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW1(config)#interface Gi1/0/8
+SW1(config-if)#description FREDAG
+SW1(config-if)#load-interval 30
+SW1(config-if)#spanning-tree portfast
+SW1(config-if)#spanning-tree bpduguard enable
+SW1(config-if)#spanning-tree guard root
+SW1(config-if)#power inline port perpetual-poe-ha
+SW1(config-if)#power inline port 2-event
+SW1(config-if)#power inline port poe-ha
+SW1(config-if)#end
+SW1#
+
+2024-09-20 15:55:18
+sw1.ksdlabb.se
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW1(config)#interface Gi1/0/8
+SW1(config-if)#description FREDAG
+SW1(config-if)#load-interval 30
+SW1(config-if)#spanning-tree portfast
+SW1(config-if)#spanning-tree bpduguard enable
+SW1(config-if)#spanning-tree guard root
+SW1(config-if)#power inline port perpetual-poe-ha
+SW1(config-if)#power inline port 2-event
+SW1(config-if)#power inline port poe-ha
+SW1(config-if)#end
+SW1#
+
+2024-09-20 15:55:18
+10.10.10.2
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW2(config)#interface Gi1/0/8
+SW2(config-if)#description FREDAG
+SW2(config-if)#load-interval 30
+SW2(config-if)#spanning-tree portfast
+SW2(config-if)#spanning-tree bpduguard enable
+SW2(config-if)#spanning-tree guard root
+SW2(config-if)#power inline port perpetual-poe-ha
+SW2(config-if)#power inline port 2-event
+SW2(config-if)#power inline port poe-ha
+SW2(config-if)#end
+SW2#
+
+2024-09-20 15:56:07
+Unable to access the device (Authentication failed) sw1.ksdlabb.se
+
+2024-09-20 15:56:07
+Unable to access the device (Authentication failed) 10.10.10.2
+
+2024-09-20 15:56:23
+sw1.ksdlabb.se
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW1(config)#interface Gi1/0/8
+SW1(config-if)#description FREDAG
+SW1(config-if)#load-interval 30
+SW1(config-if)#spanning-tree portfast
+SW1(config-if)#spanning-tree bpduguard enable
+SW1(config-if)#spanning-tree guard root
+SW1(config-if)#power inline port perpetual-poe-ha
+SW1(config-if)#power inline port 2-event
+SW1(config-if)#power inline port poe-ha
+SW1(config-if)#end
+SW1#
+
+2024-09-20 15:56:23
+10.10.10.2
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW1(config)#interface Gi1/0/8
+SW1(config-if)#description FREDAG
+SW1(config-if)#load-interval 30
+SW1(config-if)#spanning-tree portfast
+SW1(config-if)#spanning-tree bpduguard enable
+SW1(config-if)#spanning-tree guard root
+SW1(config-if)#power inline port perpetual-poe-ha
+SW1(config-if)#power inline port 2-event
+SW1(config-if)#power inline port poe-ha
+SW1(config-if)#end
+SW1#
+
+2024-09-20 15:57:10
+sw1.ksdlabb.se
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW1(config)#interface Gi1/0/8
+SW1(config-if)#description FREDAG
+SW1(config-if)#load-interval 30
+SW1(config-if)#spanning-tree portfast
+SW1(config-if)#spanning-tree bpduguard enable
+SW1(config-if)#spanning-tree guard root
+SW1(config-if)#power inline port perpetual-poe-ha
+SW1(config-if)#power inline port 2-event
+SW1(config-if)#power inline port poe-ha
+SW1(config-if)#end
+SW1#
+
+2024-09-20 15:57:10
+10.10.10.2
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW2(config)#interface Te1/1/4
+SW2(config-if)#description FREDAG
+SW2(config-if)#load-interval 30
+SW2(config-if)#spanning-tree portfast
+%Warning: portfast should only be enabled on ports connected to a single
+ host. Connecting hubs, concentrators, switches, bridges, etc... to this
+ interface  when portfast is enabled, can cause temporary bridging loops.
+ Use with CAUTION
+
+%Portfast has been configured on TenGigabitEthernet1/1/4 but will only
+ have effect when the interface is in a non-trunking mode.
+SW2(config-if)#spanning-tree bpduguard enable
+SW2(config-if)#spanning-tree guard root
+SW2(config-if)#power inline port perpetual-poe-ha
+                 ^
+% Invalid input detected at '^' marker.
+
+SW2(config-if)#power inline port 2-event
+                 ^
+% Invalid input detected at '^' marker.
+
+SW2(config-if)#power inline port poe-ha
+                 ^
+% Invalid input detected at '^' marker.
+
+SW2(config-if)#end
+SW2#
+
+2024-09-20 15:57:44
+Unable to access the device (Authentication failed) sw1.ksdlabb.se
+
+2024-09-20 15:57:44
+Unable to access the device (Authentication failed) 10.10.10.2
+
+2024-09-20 15:57:55
+sw1.ksdlabb.se
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW1(config)#interface Gi1/0/8
+SW1(config-if)#description FREDAG 16:00
+SW1(config-if)#load-interval 30
+SW1(config-if)#spanning-tree portfast
+SW1(config-if)#spanning-tree bpduguard enable
+SW1(config-if)#spanning-tree guard root
+SW1(config-if)#power inline port perpetual-poe-ha
+SW1(config-if)#power inline port 2-event
+SW1(config-if)#power inline port poe-ha
+SW1(config-if)#end
+SW1#
+
+2024-09-20 15:57:55
+10.10.10.2
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW2(config)#interface Te1/1/4
+SW2(config-if)#description FREDAG 16:00
+SW2(config-if)#load-interval 30
+SW2(config-if)#spanning-tree portfast
+SW2(config-if)#spanning-tree bpduguard enable
+SW2(config-if)#spanning-tree guard root
+SW2(config-if)#power inline port perpetual-poe-ha
+                 ^
+% Invalid input detected at '^' marker.
+
+SW2(config-if)#power inline port 2-event
+                 ^
+% Invalid input detected at '^' marker.
+
+SW2(config-if)#power inline port poe-ha
+                 ^
+% Invalid input detected at '^' marker.
+
+SW2(config-if)#end
+SW2#
+
+2024-09-20 15:59:42
+Unable to access the device (Authentication failed) sw1.ksdlabb.se
+
+2024-09-20 15:59:42
+Unable to access the device (Authentication failed) 10.10.10.2
+
+2024-09-20 15:59:42
+Unable to access the device (Timeout) 10.10.10.3
+
+2024-09-20 16:00:04
+sw1.ksdlabb.se
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW1(config)#interface Gi1/0/8
+SW1(config-if)#description FREDAG 16:00
+SW1(config-if)#load-interval 30
+SW1(config-if)#spanning-tree portfast
+SW1(config-if)#spanning-tree bpduguard enable
+SW1(config-if)#spanning-tree guard root
+SW1(config-if)#power inline port perpetual-poe-ha
+SW1(config-if)#power inline port 2-event
+SW1(config-if)#power inline port poe-ha
+SW1(config-if)#end
+SW1#
+
+2024-09-20 16:00:04
+10.10.10.2
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW2(config)#interface Te1/1/4
+SW2(config-if)#description FREDAG 16:00
+SW2(config-if)#load-interval 30
+SW2(config-if)#spanning-tree portfast
+SW2(config-if)#spanning-tree bpduguard enable
+SW2(config-if)#spanning-tree guard root
+SW2(config-if)#power inline port perpetual-poe-ha
+                 ^
+% Invalid input detected at '^' marker.
+
+SW2(config-if)#power inline port 2-event
+                 ^
+% Invalid input detected at '^' marker.
+
+SW2(config-if)#power inline port poe-ha
+                 ^
+% Invalid input detected at '^' marker.
+
+SW2(config-if)#end
+SW2#
+
+2024-09-20 16:00:04
+Unable to access the device (Timeout) 10.10.10.3
+
+2024-09-20 16:00:57
+sw1.ksdlabb.se
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW1(config)#interface Gi1/0/8
+SW1(config-if)#! Config is automatically saved after commands are done!
+SW1(config-if)#description FREDAG 16:00
+SW1(config-if)#load-interval 30
+SW1(config-if)#spanning-tree portfast
+SW1(config-if)#spanning-tree bpduguard enable
+SW1(config-if)#spanning-tree guard root
+SW1(config-if)#power inline port perpetual-poe-ha
+SW1(config-if)#power inline port 2-event
+SW1(config-if)#power inline port poe-ha
+SW1(config-if)#end
+SW1#
+
+2024-09-20 16:00:57
+10.10.10.2
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW2(config)#interface Te1/1/4
+SW2(config-if)#! Config is automatically saved after commands are done!
+SW2(config-if)#description FREDAG 16:00
+SW2(config-if)#load-interval 30
+SW2(config-if)#spanning-tree portfast
+SW2(config-if)#spanning-tree bpduguard enable
+SW2(config-if)#spanning-tree guard root
+SW2(config-if)#power inline port perpetual-poe-ha
+                 ^
+% Invalid input detected at '^' marker.
+
+SW2(config-if)#power inline port 2-event
+                 ^
+% Invalid input detected at '^' marker.
+
+SW2(config-if)#power inline port poe-ha
+                 ^
+% Invalid input detected at '^' marker.
+
+SW2(config-if)#end
+SW2#
+
+2024-09-20 16:00:57
+Unable to access the device (Timeout) 10.10.10.3
+
+2024-09-20 16:02:54
+Unable to access the device (Timeout) sw1.ksdlabb.se
+
+2024-09-20 16:02:54
+Unable to access the device (Authentication failed) 10.10.10.2
+
+2024-09-20 16:02:54
+Unable to access the device (Timeout) 10.10.10.3
+
+2024-09-20 16:03:24
+sw1.ksdlabb.se
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW1(config)#interface Gi1/0/8
+SW1(config-if)#! Config is automatically saved after ALL commands are done!
+SW1(config-if)#description FREDAG 16:00
+SW1(config-if)#load-interval 30
+SW1(config-if)#spanning-tree portfast
+SW1(config-if)#spanning-tree bpduguard enable
+SW1(config-if)#spanning-tree guard root
+SW1(config-if)#power inline port perpetual-poe-ha
+SW1(config-if)#power inline port 2-event
+SW1(config-if)#power inline port poe-ha
+SW1(config-if)#storm-control broadcast level pps 200 100
+SW1(config-if)#end
+SW1#
+
+2024-09-20 16:03:24
+10.10.10.2
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW2(config)#interface Te1/1/4
+SW2(config-if)#! Config is automatically saved after ALL commands are done!
+SW2(config-if)#description FREDAG 16:00
+SW2(config-if)#load-interval 30
+SW2(config-if)#spanning-tree portfast
+SW2(config-if)#spanning-tree bpduguard enable
+SW2(config-if)#spanning-tree guard root
+SW2(config-if)#power inline port perpetual-poe-ha
+                 ^
+% Invalid input detected at '^' marker.
+
+SW2(config-if)#power inline port 2-event
+                 ^
+% Invalid input detected at '^' marker.
+
+SW2(config-if)#power inline port poe-ha
+                 ^
+% Invalid input detected at '^' marker.
+
+SW2(config-if)#storm-control broadcast level pps 200 100
+SW2(config-if)#end
+SW2#
+
+2024-09-20 16:03:24
+Unable to access the device (Timeout) 10.10.10.3
+
+2024-09-20 16:07:23
+sw1.ksdlabb.se
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW1(config)#interface Gi1/0/8
+SW1(config-if)#! Config is automatically saved after ALL commands are done!
+SW1(config-if)#description FREDAG 16:00
+SW1(config-if)#load-interval 30
+SW1(config-if)#!switchport host
+SW1(config-if)#spanning-tree portfast
+SW1(config-if)#spanning-tree bpduguard enable
+SW1(config-if)#!spanning-tree guard root
+SW1(config-if)#power inline port perpetual-poe-ha
+SW1(config-if)#power inline port 2-event
+SW1(config-if)#power inline port poe-ha
+SW1(config-if)#storm-control broadcast level pps 200 100
+SW1(config-if)#end
+SW1#
+
+2024-09-20 16:07:23
+10.10.10.2
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW2(config)#interface Te1/1/4
+SW2(config-if)#! Config is automatically saved after ALL commands are done!
+SW2(config-if)#description FREDAG 16:00
+SW2(config-if)#load-interval 30
+SW2(config-if)#!switchport host
+SW2(config-if)#spanning-tree portfast
+SW2(config-if)#spanning-tree bpduguard enable
+SW2(config-if)#!spanning-tree guard root
+SW2(config-if)#power inline port perpetual-poe-ha
+                 ^
+% Invalid input detected at '^' marker.
+
+SW2(config-if)#power inline port 2-event
+                 ^
+% Invalid input detected at '^' marker.
+
+SW2(config-if)#power inline port poe-ha
+                 ^
+% Invalid input detected at '^' marker.
+
+SW2(config-if)#storm-control broadcast level pps 200 100
+SW2(config-if)#end
+SW2#
+
+2024-09-20 16:07:39
+sw1.ksdlabb.se
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW1(config)#interface Gi1/0/8
+SW1(config-if)#! Config is automatically saved after ALL commands are done!
+SW1(config-if)#description FREDAG 16:00
+SW1(config-if)#load-interval 30
+SW1(config-if)#!switchport host?
+SW1(config-if)#
+SW1(config-if)#spanning-tree portfast
+SW1(config-if)#spanning-tree bpduguard enable
+SW1(config-if)#!spanning-tree guard root
+SW1(config-if)#power inline port perpetual-poe-ha
+SW1(config-if)#power inline port 2-event
+SW1(config-if)#power inline port poe-ha
+SW1(config-if)#storm-control broadcast level pps 200 100
+SW1(config-if)#end
+SW1#
+
+2024-09-20 16:08:51
+sw1.ksdlabb.se
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW1(config)#interface Gi1/0/8
+SW1(config-if)#! Config is automatically saved after ALL commands are done!
+SW1(config-if)#description FREDAG 16:00
+SW1(config-if)#load-interval 30
+SW1(config-if)#!switchport host to set PortFast for both IOS and IOS-XE
+SW1(config-if)#spanning-tree portfast
+SW1(config-if)#spanning-tree bpduguard enable
+SW1(config-if)#!spanning-tree guard root
+SW1(config-if)#power inline port perpetual-poe-ha
+SW1(config-if)#power inline port 2-event
+SW1(config-if)#power inline port poe-ha
+SW1(config-if)#storm-control broadcast level pps 200 100
+SW1(config-if)#end
+SW1#
+
+2024-09-20 16:08:51
+10.10.10.2
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW2(config)#interface Te1/1/4
+SW2(config-if)#! Config is automatically saved after ALL commands are done!
+SW2(config-if)#description FREDAG 16:00
+SW2(config-if)#load-interval 30
+SW2(config-if)#!switchport host to set PortFast for both IOS and IOS-XE
+SW2(config-if)#spanning-tree portfast
+SW2(config-if)#spanning-tree bpduguard enable
+SW2(config-if)#!spanning-tree guard root
+SW2(config-if)#power inline port perpetual-poe-ha
+                 ^
+% Invalid input detected at '^' marker.
+
+SW2(config-if)#power inline port 2-event
+                 ^
+% Invalid input detected at '^' marker.
+
+SW2(config-if)#power inline port poe-ha
+                 ^
+% Invalid input detected at '^' marker.
+
+SW2(config-if)#storm-control broadcast level pps 200 100
+SW2(config-if)#end
+SW2#

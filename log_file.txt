@@ -1,17 +1,11 @@
 
-2024-09-23 16:08:39
-Unable to access the device (Authentication failed) 192.168.1.201
-
-2024-09-23 16:08:39
-Unable to access the device (Timeout) 192.168.1.202
-
-2024-09-23 16:09:17
+2024-09-23 16:38:13
 192.168.1.201
 configure terminal
 Enter configuration commands, one per line.  End with CNTL/Z.
 SW02(config)#interface Gi0/8
 SW02(config-if)#! Config is automatically saved after ALL commands are done!
-SW02(config-if)#description FREDAG 16:00
+SW02(config-if)#description MANDAG 16:00
 SW02(config-if)#load-interval 30
 SW02(config-if)#switchport host
 switchport mode will be set to access
@@ -28,22 +22,13 @@ SW02(config-if)#storm-control broadcast level pps 200 100
 SW02(config-if)#end
 SW02#
 
-2024-09-23 16:09:17
-Unable to access the device (Timeout) 192.168.1.202
-
-2024-09-23 16:11:08
-Unable to access the device (Authentication failed) 192.168.1.201
-
-2024-09-23 16:11:08
-Unable to access the device (Timeout) 192.168.1.202
-
-2024-09-23 16:11:48
+2024-09-23 16:38:13
 192.168.1.201
 configure terminal
 Enter configuration commands, one per line.  End with CNTL/Z.
 SW02(config)#interface Gi0/8
 SW02(config-if)#! Config is automatically saved after ALL commands are done!
-SW02(config-if)#description FREDAG 16:00
+SW02(config-if)#description MANDAG 16:00
 SW02(config-if)#load-interval 30
 SW02(config-if)#switchport host
 switchport mode will be set to access
@@ -60,5 +45,48 @@ SW02(config-if)#storm-control broadcast level pps 200 100
 SW02(config-if)#end
 SW02#
 
-2024-09-23 16:11:48
-Unable to access the device (Timeout) 192.168.1.202
+2024-09-23 16:39:51
+192.168.1.201
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW02(config)#interface Gi0/8
+SW02(config-if)#! Config is automatically saved after ALL commands are done!
+SW02(config-if)#description 17:00
+SW02(config-if)#load-interval 30
+SW02(config-if)#switchport host
+switchport mode will be set to access
+spanning-tree portfast will be enabled
+channel group will be disabled
+
+SW02(config-if)#spanning-tree portfast
+SW02(config-if)#spanning-tree bpduguard enable
+SW02(config-if)#spanning-tree guard root
+SW02(config-if)#!power inline port perpetual-poe-ha
+SW02(config-if)#!power inline port 2-event
+SW02(config-if)#!power inline port poe-ha
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#end
+SW02#
+
+2024-09-23 16:39:51
+192.168.1.201
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW02(config)#interface Gi0/8
+SW02(config-if)#! Config is automatically saved after ALL commands are done!
+SW02(config-if)#description 17:00
+SW02(config-if)#load-interval 30
+SW02(config-if)#switchport host
+switchport mode will be set to access
+spanning-tree portfast will be enabled
+channel group will be disabled
+
+SW02(config-if)#spanning-tree portfast
+SW02(config-if)#spanning-tree bpduguard enable
+SW02(config-if)#spanning-tree guard root
+SW02(config-if)#!power inline port perpetual-poe-ha
+SW02(config-if)#!power inline port 2-event
+SW02(config-if)#!power inline port poe-ha
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#end
+SW02#

@@ -16,24 +16,25 @@ from netmiko.exceptions import AuthenticationException
 from netmiko.exceptions import NetMikoTimeoutException
 from netmiko.exceptions import SSHException
 from colorama import Fore, Back, Style, init
+from colorama import just_fix_windows_console
+just_fix_windows_console()
 
 print(Back.YELLOW)
 print('\n' ' .:.:. Script initiated  .:.:.')
-print(' ')
-#print('\n')
 print(Style.RESET_ALL)
 
-# Ask user for device credentials (same credentials are used for all switches)
+
+# Ask user for device credentials (same credentials are used for all devices)
 USER = input('Username: ')
 PASS = getpass.getpass('Password: ')
-# Comment out "EN" below if Enable password is not needed
+# Comment out "ENABLE" below if Enable password is not needed
 # ENABLE = getpass.getpass('Enable: ')
 print('\n')
 print('CONNECTING TO DEVICES... ')
 print('\n')
 
 
-# Default device template
+# Device template
 device_template = {
 	'device_type': 'cisco',
 	'ip': '1.2.3.4',
@@ -48,7 +49,6 @@ device_template = {
 # Keep track of current time for timestamping log files
 # Create string variable of current time
 current_time = str(datetime.now().replace(microsecond=0))
-#string_current_time = str(current)
 
 # Variable to keep track of failed connections to devices 
 failed_devices_amount = 0
@@ -71,45 +71,36 @@ for row in list_of_devices:
 		device_template['port'] = '22'
 		device_template['ip'] = row['ip']
 	try:
+		# Connect to device and send initial show command to gather interface data
+		# Textfsm template from Network-to-Code (included in NetMiko) is used to parse output from this specific show command
+		# The template will create a list of dictionaries to be used later to match access ports
 		print ('====== Logging IN to device', device_template['ip'],'   ======')
-		#Connect to device and send show/config
 		net_connect = ConnectHandler(**device_template)
 		net_connect.enable()
-		#interface_data (prev. "output") = net_connect.send_command_timing('show run', last_read=1, read_timeout=3000)
 		print(Fore.GREEN + "====== CONNECTED! ======" + Style.RESET_ALL)
 		interface_data = net_connect.send_command('show interfaces switchport', use_textfsm=True)
 		
-		# Print 
+		# Print output from show interfaces switchport using pprint for better visibility
 		pprint.pp(interface_data)
+		# Announce configuration will be sent to the device
 		print ('====== Running commands on', device_template['ip'],'   ======')
-		#Connect to device and send config
-		#net_connect = ConnectHandler(**device_template)
-		#net_connect.enable()
 
+		# For-loop to configure interfaces which matches the "static access" admin_mode
 		for interface in interface_data:
 			if interface['admin_mode'] == 'static access':
-       		# Replace this with the actual command you want to run
+       		# Enter the specific Access Port before executing commands from CSV
 				print(f"Running command(s) on {interface['interface']}")
 				enter_interface = f"interface {interface['interface']}"
-				#print(enter_interface)
-				#print(enter_interface)
-				output1 = net_connect.send_config_set(enter_interface)
-				#output2 = net_connect.send_config_from_file('commands_to_send.txt')
+				output_enter_interface = net_connect.send_config_set(enter_interface)
+				# Open CSV file "commands_to_send.txt" which contains the interface commands to send
 				with open('commands_to_send.txt', 'r') as file:
 					commands = file.readlines()
 					# Strip any newline characters and send the commands within the interface context
 					commands = [cmd.strip() for cmd in commands]
 				full_command_list = [enter_interface] + commands
-				output2 = net_connect.send_config_set(full_command_list)
-				#output3 = net_connect.send_config_set("do write mem")
-				print(output2)
+				output_full_command_list = net_connect.send_config_set(full_command_list)
+				print(output_full_command_list)
 
-
-
-		#output = net_connect.send_command_timing('show run', last_read=1, read_timeout=3000)
-		#output = net_connect.send_config_from_file('commands_to_send.txt')
-		#print(Fore.GREEN + "====== CONNECTED! ======" + Style.RESET_ALL)
-		#print(output)
 		#Save logs in file
 		log = open('log_file.txt', 'a')
 		log.write('\n')
@@ -117,9 +108,10 @@ for row in list_of_devices:
 		log.write('\n')
 		log.write(device_template['ip'])
 		log.write('\n')
-		log.write(output2)
+		log.write(output_full_command_list)
 		log.write('\n')
-		print ('====== Saving Configuration on device', device_template['ip'],' ======')
+		print (Fore.CYAN + '====== Saving Configuration on device', device_template['ip'],' ======' + Style.RESET_ALL)
+		# Send "do write mem" to device to save configuration
 		save_now = net_connect.send_config_set("do write mem")
 		net_connect.disconnect()
 		print ('====== Logging OUT from device', device_template['ip'],' ======')
@@ -129,7 +121,6 @@ for row in list_of_devices:
 
 	# Manage and log Authentication failure to device
 	except AuthenticationException as err1:
-		#print("~" * 15 + str(err2) + "TIMEOUT~" * 15)
 		log = open('log_file.txt', 'a')
 		log.write('\n')
 		log.write(current_time)
@@ -138,17 +129,13 @@ for row in list_of_devices:
 		log.write(device_template['ip'])
 		log.write('\n')
 		print(Fore.BLACK + Back.RED + '====== Unable to access device', device_template['ip'],' ======' + Style.RESET_ALL)
-		#print(Style.RESET_ALL)
 		# Increase failed_devices variable
 		failed_devices_amount += 1
 		# Add(append) IP address of failed device to list 
 		failed_devices_ip.append(device_template['ip'])
 		# Convert exception error "e" to a string and save in new variable
-		#string_e = str(err1)
 		# Save first line of converted exception error (contains failure reason) as variable
-		#string_e_line1 = string_e.partition('\n')[0]
 		# Add(append) failure reason of failed connection attempt to list
-		#failed_devices_reason.append(string_e_line1)
 		failed_devices_reason.append("Authentication to device failed.")
 
 	# Manage and log Timeout Exception (device unreachable)
@@ -161,18 +148,15 @@ for row in list_of_devices:
 		log.write('Unable to access the device (Timeout) ')
 		log.write(device_template['ip'])
 		log.write('\n')
-		print(Fore.BLACK + Back.RED + '====== Unable to access device', device_template['ip'],' ======' + Style.RESET_ALL)
-		#print(Style.RESET_ALL)
+		print(Fore.BLACK + Back.RED + '====== Unable to access device', device_template['ip'], ' ======' + Style.RESET_ALL)
+		
 		# Increase failed_devices variable
 		failed_devices_amount += 1
 		# Add(append) IP address of failed device to list 
 		failed_devices_ip.append(device_template['ip'])
 		# Convert exception error "e" to a string and save in new variable
-		#string_e = str(err2)
 		# Save first line of converted exception error (contains failure reason) as variable
-		#string_e_line1 = string_e.partition('\n')[0]
 		# Add(append) failure reason of failed connection attempt to list
-		#failed_devices_reason.append(string_e_line1)
 		failed_devices_reason.append("Connection to device failed.")
 
 		log.close()
@@ -186,7 +170,6 @@ for row in list_of_devices:
 		log.write(device_template['ip'])
 		log.write('\n')
 		print(Fore.BLACK + Back.RED + '====== Unable to access device', device_template['ip'],' ======' + Style.RESET_ALL)
-		#print(Style.RESET_ALL)
 		# Increase failed_devices variable
 		failed_devices_amount += 1
 		# Add(append) IP address of failed device to list 
@@ -210,12 +193,8 @@ if failed_devices_amount > 0:
 else:
 	pass
 
-#print(Style.RESET_ALL)
 print('\n')
 print(Back.GREEN)
-#print('\n' '.:.:. .:.:. .:.:. .:.:. .:.:.')
 print('\n' ' .:.:.  Script finished  .:.:.')
-#print('\n' '.:.:. .:.:. .:.:. .:.:. .:.:.')
-#print('\n')
 print(Style.RESET_ALL)
 print('\n')

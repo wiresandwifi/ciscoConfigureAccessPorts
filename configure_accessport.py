@@ -15,8 +15,7 @@ from netmiko import ConnectHandler
 from netmiko.exceptions import AuthenticationException
 from netmiko.exceptions import NetMikoTimeoutException
 from netmiko.exceptions import SSHException
-from colorama import Fore, Back, Style, init
-from colorama import just_fix_windows_console
+from colorama import Fore, Back, Style, init, just_fix_windows_console
 just_fix_windows_console()
 
 print(Back.YELLOW)
@@ -101,19 +100,22 @@ for row in list_of_devices:
 				output_full_command_list = net_connect.send_config_set(full_command_list)
 				print(output_full_command_list)
 
-		#Save logs in file
-		log = open("log_file.txt", "a")
-		log.write("\n")
-		log.write("Time: " + current_time)
-		log.write("\n")
-		log.write("Device: " + device_template["ip"])
-		log.write("\n")
-		log.write(output_full_command_list)
-		log.write("\n")
-		print (Fore.CYAN + "====== Saving Configuration on device", device_template["ip"]," ======" + Style.RESET_ALL)
+				# Append output to log file with timestamp and device IP/hostname
+				log = open("log_file.txt", "a")
+				log.write("\n")
+				log.write("Time: " + current_time)
+				log.write("\n")
+				log.write("Device: " + device_template["ip"])
+				log.write("\n")
+				log.write(output_full_command_list)
+				log.write("\n")
+				print(Back.CYAN + Fore.BLACK + "====== Finished! Saving Configuration on device", device_template["ip"], " ======" + Style.RESET_ALL)
+				
 		# Send "do write mem" to device to save configuration
 		save_now = net_connect.send_config_set("do write mem")
+		# Disconnect from device
 		net_connect.disconnect()
+		
 		print ("====== Logging OUT from device", device_template["ip"]," ======")
 		print("\n")
 

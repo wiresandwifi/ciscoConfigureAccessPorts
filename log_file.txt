@@ -395,3 +395,687 @@ SW02#
 
 2024-09-23 18:40:18
 Unable to access the device (Timeout) 192.168.1.202
+
+Time: 2024-09-23 19:10:08
+Device: 192.168.1.201
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW02(config)#interface Gi0/11
+SW02(config-if)#! Config is automatically saved after ALL commands are done!
+SW02(config-if)#description 16:46
+SW02(config-if)#load-interval 30
+SW02(config-if)#spanning-tree portfast
+SW02(config-if)#spanning-tree bpduguard enable
+SW02(config-if)#spanning-tree guard root
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#end
+SW02#
+
+2024-09-23 19:10:08
+Unable to access the device (Timeout) 192.168.1.202
+
+2024-09-23 19:11:11
+Unable to access the device (Authentication failed) 192.168.1.201
+
+2024-09-23 19:11:11
+Unable to access the device (Timeout) 192.168.1.202
+
+Time: 2024-09-23 19:11:40
+Device: 192.168.1.201
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW02(config)#interface Gi0/11
+SW02(config-if)#! Config is automatically saved after ALL commands are done!
+SW02(config-if)#description 16:46
+SW02(config-if)#load-interval 30
+SW02(config-if)#spanning-tree portfast
+SW02(config-if)#spanning-tree bpduguard enable
+SW02(config-if)#spanning-tree guard root
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#end
+SW02#
+
+2024-09-23 19:11:40
+Unable to access the device (Timeout) 192.168.1.202
+
+Time: 2024-09-23 19:12:34
+Device: 192.168.1.201
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW02(config)#interface Gi0/11
+SW02(config-if)#! Config is automatically saved after ALL commands are done!
+SW02(config-if)#description 16:46
+SW02(config-if)#load-interval 30
+SW02(config-if)#spanning-tree portfast
+SW02(config-if)#spanning-tree bpduguard enable
+SW02(config-if)#spanning-tree guard root
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#end
+SW02#
+
+2024-09-23 19:12:34
+Unable to access the device (Timeout) 192.168.1.202
+
+Time: 2024-09-23 19:13:13
+Device: 192.168.1.201
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW02(config)#interface Gi0/11
+SW02(config-if)#! Config is automatically saved after ALL commands are done!
+SW02(config-if)#description 16:46
+SW02(config-if)#load-interval 30
+SW02(config-if)#spanning-tree portfast
+SW02(config-if)#spanning-tree bpduguard enable
+SW02(config-if)#spanning-tree guard root
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#end
+SW02#
+
+2024-09-23 19:13:13
+Unable to access the device (Timeout) 192.168.1.202
+
+Time: 2024-09-23 19:13:45
+Device: 192.168.1.201
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW02(config)#interface Gi0/11
+SW02(config-if)#! Config is automatically saved after ALL commands are done!
+SW02(config-if)#description 16:46
+SW02(config-if)#load-interval 30
+SW02(config-if)#spanning-tree portfast
+SW02(config-if)#spanning-tree bpduguard enable
+SW02(config-if)#spanning-tree guard root
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#end
+SW02#
+
+2024-09-23 19:13:45
+Unable to access the device (Timeout) 192.168.1.202
+
+Time: 2024-09-23 19:14:12
+Device: 192.168.1.201
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW02(config)#interface Gi0/11
+SW02(config-if)#! Config is automatically saved after ALL commands are done!
+SW02(config-if)#description 16:46
+SW02(config-if)#load-interval 30
+SW02(config-if)#spanning-tree portfast
+SW02(config-if)#spanning-tree bpduguard enable
+SW02(config-if)#spanning-tree guard root
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#end
+SW02#
+
+2024-09-23 19:14:12
+Unable to access the device (Timeout) 192.168.1.202
+
+Time: 2024-09-23 19:14:53
+Device: 192.168.1.201
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW02(config)#interface Gi0/11
+SW02(config-if)#! Config is automatically saved after ALL commands are done!
+SW02(config-if)#description 16:46
+SW02(config-if)#load-interval 30
+SW02(config-if)#spanning-tree portfast
+SW02(config-if)#spanning-tree bpduguard enable
+SW02(config-if)#spanning-tree guard root
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#end
+SW02#
+
+2024-09-23 19:14:53
+Unable to access the device (Timeout) 192.168.1.202
+
+Time: 2024-09-23 19:15:39
+Device: 192.168.1.201
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW02(config)#interface Gi0/11
+SW02(config-if)#! Config is automatically saved after ALL commands are done!
+SW02(config-if)#description 16:46
+SW02(config-if)#load-interval 30
+SW02(config-if)#spanning-tree portfast
+SW02(config-if)#spanning-tree bpduguard enable
+SW02(config-if)#spanning-tree guard root
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#end
+SW02#
+
+2024-09-23 19:15:39
+Unable to access the device (Timeout) 192.168.1.202
+
+Time: 2024-09-23 19:16:06
+Device: 192.168.1.201
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW02(config)#interface Gi0/11
+SW02(config-if)#! Config is automatically saved after ALL commands are done!
+SW02(config-if)#description 16:46
+SW02(config-if)#load-interval 30
+SW02(config-if)#spanning-tree portfast
+SW02(config-if)#spanning-tree bpduguard enable
+SW02(config-if)#spanning-tree guard root
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#end
+SW02#
+
+2024-09-23 19:16:06
+Unable to access the device (Timeout) 192.168.1.202
+
+Time: 2024-09-23 19:18:10
+Device: 192.168.1.201
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW02(config)#interface Gi0/1
+SW02(config-if)#! Config is automatically saved after ALL commands are done!
+SW02(config-if)#description 16:46
+SW02(config-if)#load-interval 30
+SW02(config-if)#spanning-tree portfast
+SW02(config-if)#spanning-tree bpduguard enable
+SW02(config-if)#spanning-tree guard root
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#end
+SW02#
+
+Time: 2024-09-23 19:18:43
+Device: 192.168.1.201
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW02(config)#interface Gi0/1
+SW02(config-if)#! Config is automatically saved after ALL commands are done!
+SW02(config-if)#description 16:46
+SW02(config-if)#load-interval 30
+SW02(config-if)#spanning-tree portfast
+SW02(config-if)#spanning-tree bpduguard enable
+SW02(config-if)#spanning-tree guard root
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#end
+SW02#
+
+2024-09-23 19:19:04
+Unable to access the device (Authentication failed) 192.168.1.201
+
+2024-09-23 19:19:04
+Unable to access the device (Timeout) 192.168.1.202
+
+Time: 2024-09-23 19:19:23
+Device: 192.168.1.201
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW02(config)#interface Gi0/1
+SW02(config-if)#! Config is automatically saved after ALL commands are done!
+SW02(config-if)#description 16:46
+SW02(config-if)#load-interval 30
+SW02(config-if)#spanning-tree portfast
+SW02(config-if)#spanning-tree bpduguard enable
+SW02(config-if)#spanning-tree guard root
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#end
+SW02#
+
+Time: 2024-09-23 19:19:47
+Device: 192.168.1.201
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW02(config)#interface Gi0/11
+SW02(config-if)#! Config is automatically saved after ALL commands are done!
+SW02(config-if)#description 16:46
+SW02(config-if)#load-interval 30
+SW02(config-if)#spanning-tree portfast
+SW02(config-if)#spanning-tree bpduguard enable
+SW02(config-if)#spanning-tree guard root
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#end
+SW02#
+
+2024-09-23 19:19:47
+Unable to access the device (Timeout) 192.168.1.202
+
+2024-09-23 19:20:09
+Unable to access the device (Authentication failed) 192.168.1.201
+
+2024-09-23 19:20:09
+Unable to access the device (Timeout) 192.168.1.202
+
+Time: 2024-09-23 19:20:57
+Device: 192.168.1.201
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW02(config)#interface Gi0/1
+SW02(config-if)#! Config is automatically saved after ALL commands are done!
+SW02(config-if)#description 16:46
+SW02(config-if)#load-interval 30
+SW02(config-if)#spanning-tree portfast
+SW02(config-if)#spanning-tree bpduguard enable
+SW02(config-if)#spanning-tree guard root
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#end
+SW02#
+
+Time: 2024-09-23 19:21:43
+Device: 192.168.1.201
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW02(config)#interface Gi0/11
+SW02(config-if)#! Config is automatically saved after ALL commands are done!
+SW02(config-if)#description 16:46
+SW02(config-if)#load-interval 30
+SW02(config-if)#spanning-tree portfast
+SW02(config-if)#spanning-tree bpduguard enable
+SW02(config-if)#spanning-tree guard root
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#end
+SW02#
+
+2024-09-23 19:21:43
+Unable to access the device (Timeout) 192.168.1.202
+
+Time: 2024-09-23 19:24:21
+Device: 192.168.1.201
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW02(config)#interface Gi0/1
+SW02(config-if)#! Config is automatically saved after ALL commands are done!
+SW02(config-if)#description 16:46
+SW02(config-if)#load-interval 30
+SW02(config-if)#spanning-tree portfast
+SW02(config-if)#spanning-tree bpduguard enable
+SW02(config-if)#spanning-tree guard root
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#end
+SW02#
+
+Time: 2024-09-23 19:24:21
+Device: 192.168.1.201
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW02(config)#interface Gi0/2
+SW02(config-if)#! Config is automatically saved after ALL commands are done!
+SW02(config-if)#description 16:46
+SW02(config-if)#load-interval 30
+SW02(config-if)#spanning-tree portfast
+SW02(config-if)#spanning-tree bpduguard enable
+SW02(config-if)#spanning-tree guard root
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#end
+SW02#
+
+Time: 2024-09-23 19:24:21
+Device: 192.168.1.201
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW02(config)#interface Gi0/3
+SW02(config-if)#! Config is automatically saved after ALL commands are done!
+SW02(config-if)#description 16:46
+SW02(config-if)#load-interval 30
+SW02(config-if)#spanning-tree portfast
+SW02(config-if)#spanning-tree bpduguard enable
+SW02(config-if)#spanning-tree guard root
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#end
+SW02#
+
+Time: 2024-09-23 19:24:21
+Device: 192.168.1.201
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW02(config)#interface Gi0/4
+SW02(config-if)#! Config is automatically saved after ALL commands are done!
+SW02(config-if)#description 16:46
+SW02(config-if)#load-interval 30
+SW02(config-if)#spanning-tree portfast
+SW02(config-if)#spanning-tree bpduguard enable
+SW02(config-if)#spanning-tree guard root
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#end
+SW02#
+
+Time: 2024-09-23 19:24:21
+Device: 192.168.1.201
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW02(config)#interface Gi0/5
+SW02(config-if)#! Config is automatically saved after ALL commands are done!
+SW02(config-if)#description 16:46
+SW02(config-if)#load-interval 30
+SW02(config-if)#spanning-tree portfast
+SW02(config-if)#spanning-tree bpduguard enable
+SW02(config-if)#spanning-tree guard root
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#end
+SW02#
+
+Time: 2024-09-23 19:24:21
+Device: 192.168.1.201
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW02(config)#interface Gi0/6
+SW02(config-if)#! Config is automatically saved after ALL commands are done!
+SW02(config-if)#description 16:46
+SW02(config-if)#load-interval 30
+SW02(config-if)#spanning-tree portfast
+SW02(config-if)#spanning-tree bpduguard enable
+SW02(config-if)#spanning-tree guard root
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#end
+SW02#
+
+Time: 2024-09-23 19:24:21
+Device: 192.168.1.201
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW02(config)#interface Gi0/7
+SW02(config-if)#! Config is automatically saved after ALL commands are done!
+SW02(config-if)#description 16:46
+SW02(config-if)#load-interval 30
+SW02(config-if)#spanning-tree portfast
+SW02(config-if)#spanning-tree bpduguard enable
+SW02(config-if)#spanning-tree guard root
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#end
+SW02#
+
+Time: 2024-09-23 19:24:21
+Device: 192.168.1.201
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW02(config)#interface Gi0/8
+SW02(config-if)#! Config is automatically saved after ALL commands are done!
+SW02(config-if)#description 16:46
+SW02(config-if)#load-interval 30
+SW02(config-if)#spanning-tree portfast
+SW02(config-if)#spanning-tree bpduguard enable
+SW02(config-if)#spanning-tree guard root
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#end
+SW02#
+
+Time: 2024-09-23 19:24:21
+Device: 192.168.1.201
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW02(config)#interface Gi0/11
+SW02(config-if)#! Config is automatically saved after ALL commands are done!
+SW02(config-if)#description 16:46
+SW02(config-if)#load-interval 30
+SW02(config-if)#spanning-tree portfast
+SW02(config-if)#spanning-tree bpduguard enable
+SW02(config-if)#spanning-tree guard root
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#end
+SW02#
+
+2024-09-23 19:24:21
+Unable to access the device (Timeout) 192.168.1.202
+
+Time: 2024-09-23 19:25:53
+Device: 192.168.1.201
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW02(config)#interface Gi0/1
+SW02(config-if)#! Config is automatically saved after ALL commands are done!
+SW02(config-if)#description 16:46
+SW02(config-if)#load-interval 30
+SW02(config-if)#spanning-tree portfast
+SW02(config-if)#spanning-tree bpduguard enable
+SW02(config-if)#spanning-tree guard root
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#end
+SW02#
+
+Time: 2024-09-23 19:25:53
+Device: 192.168.1.201
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW02(config)#interface Gi0/2
+SW02(config-if)#! Config is automatically saved after ALL commands are done!
+SW02(config-if)#description 16:46
+SW02(config-if)#load-interval 30
+SW02(config-if)#spanning-tree portfast
+SW02(config-if)#spanning-tree bpduguard enable
+SW02(config-if)#spanning-tree guard root
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#end
+SW02#
+
+Time: 2024-09-23 19:25:53
+Device: 192.168.1.201
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW02(config)#interface Gi0/3
+SW02(config-if)#! Config is automatically saved after ALL commands are done!
+SW02(config-if)#description 16:46
+SW02(config-if)#load-interval 30
+SW02(config-if)#spanning-tree portfast
+SW02(config-if)#spanning-tree bpduguard enable
+SW02(config-if)#spanning-tree guard root
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#end
+SW02#
+
+Time: 2024-09-23 19:25:53
+Device: 192.168.1.201
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW02(config)#interface Gi0/4
+SW02(config-if)#! Config is automatically saved after ALL commands are done!
+SW02(config-if)#description 16:46
+SW02(config-if)#load-interval 30
+SW02(config-if)#spanning-tree portfast
+SW02(config-if)#spanning-tree bpduguard enable
+SW02(config-if)#spanning-tree guard root
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#end
+SW02#
+
+Time: 2024-09-23 19:25:53
+Device: 192.168.1.201
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW02(config)#interface Gi0/5
+SW02(config-if)#! Config is automatically saved after ALL commands are done!
+SW02(config-if)#description 16:46
+SW02(config-if)#load-interval 30
+SW02(config-if)#spanning-tree portfast
+SW02(config-if)#spanning-tree bpduguard enable
+SW02(config-if)#spanning-tree guard root
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#end
+SW02#
+
+Time: 2024-09-23 19:25:53
+Device: 192.168.1.201
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW02(config)#interface Gi0/6
+SW02(config-if)#! Config is automatically saved after ALL commands are done!
+SW02(config-if)#description 16:46
+SW02(config-if)#load-interval 30
+SW02(config-if)#spanning-tree portfast
+SW02(config-if)#spanning-tree bpduguard enable
+SW02(config-if)#spanning-tree guard root
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#end
+SW02#
+
+Time: 2024-09-23 19:25:53
+Device: 192.168.1.201
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW02(config)#interface Gi0/7
+SW02(config-if)#! Config is automatically saved after ALL commands are done!
+SW02(config-if)#description 16:46
+SW02(config-if)#load-interval 30
+SW02(config-if)#spanning-tree portfast
+SW02(config-if)#spanning-tree bpduguard enable
+SW02(config-if)#spanning-tree guard root
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#end
+SW02#
+
+Time: 2024-09-23 19:25:53
+Device: 192.168.1.201
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW02(config)#interface Gi0/8
+SW02(config-if)#! Config is automatically saved after ALL commands are done!
+SW02(config-if)#description 16:46
+SW02(config-if)#load-interval 30
+SW02(config-if)#spanning-tree portfast
+SW02(config-if)#spanning-tree bpduguard enable
+SW02(config-if)#spanning-tree guard root
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#end
+SW02#
+
+Time: 2024-09-23 19:25:53
+Device: 192.168.1.201
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW02(config)#interface Gi0/11
+SW02(config-if)#! Config is automatically saved after ALL commands are done!
+SW02(config-if)#description 16:46
+SW02(config-if)#load-interval 30
+SW02(config-if)#spanning-tree portfast
+SW02(config-if)#spanning-tree bpduguard enable
+SW02(config-if)#spanning-tree guard root
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#storm-control broadcast level pps 200 100
+SW02(config-if)#end
+SW02#
+
+2024-09-23 19:25:53
+Unable to access the device (Timeout) 192.168.1.202

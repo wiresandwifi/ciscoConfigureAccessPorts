@@ -104,9 +104,9 @@ for row in list_of_devices:
 		#Save logs in file
 		log = open('log_file.txt', 'a')
 		log.write('\n')
-		log.write(current_time)
+		log.write("Time: " + current_time)
 		log.write('\n')
-		log.write(device_template['ip'])
+		log.write("Device: " + device_template['ip'])
 		log.write('\n')
 		log.write(output_full_command_list)
 		log.write('\n')
@@ -119,7 +119,7 @@ for row in list_of_devices:
 
 
 
-	# Manage and log Authentication failure to device
+	# Manage and log Authentication Failures to device
 	except AuthenticationException as err1:
 		log = open('log_file.txt', 'a')
 		log.write('\n')
@@ -131,16 +131,15 @@ for row in list_of_devices:
 		print(Fore.BLACK + Back.RED + '====== Unable to access device', device_template['ip'],' ======' + Style.RESET_ALL)
 		# Increase failed_devices variable
 		failed_devices_amount += 1
-		# Add(append) IP address of failed device to list 
+		# Add(append) IP address of failed device to list "failed_devices_ip"
 		failed_devices_ip.append(device_template['ip'])
 		# Convert exception error "e" to a string and save in new variable
 		# Save first line of converted exception error (contains failure reason) as variable
-		# Add(append) failure reason of failed connection attempt to list
+		# Add(append) failure reason of failed connection attempt to list "failed_devices_reason"
 		failed_devices_reason.append("Authentication to device failed.")
 
 	# Manage and log Timeout Exception (device unreachable)
 	except NetMikoTimeoutException as err2:
-        #print("~" * 15 + str(err2) + "TIMEOUT~" * 15)
 		log = open('log_file.txt', 'a')
 		log.write('\n')
 		log.write(current_time)
@@ -170,16 +169,12 @@ for row in list_of_devices:
 		log.write(device_template['ip'])
 		log.write('\n')
 		print(Fore.BLACK + Back.RED + '====== Unable to access device', device_template['ip'],' ======' + Style.RESET_ALL)
-		# Increase failed_devices variable
+		# Increase failed_devices variable by 1
 		failed_devices_amount += 1
 		# Add(append) IP address of failed device to list 
 		failed_devices_ip.append(device_template['ip'])
-		# Convert exception error "e" to a string and save in new variable
-		string_e = str(e)
-		# Save first line of converted exception error (contains failure reason) as variable
-		string_e_line1 = string_e.partition('\n')[0]
-		# Add(append) failure reason of failed connection attempt to list
-		failed_devices_reason.append(string_e_line1)
+		# Add(append) reason of failed connection attempt to list
+		failed_devices_reason.append("Connection failed (Unknown Error).")
 
 		log.close()
 

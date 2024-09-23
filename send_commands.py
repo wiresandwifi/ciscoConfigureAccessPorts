@@ -7,29 +7,23 @@
 import getpass
 import netmiko
 import csv
+import textfsm
+import pprint
 from datetime import datetime
-#import colorama
+import colorama
 from netmiko import ConnectHandler
 from netmiko.exceptions import AuthenticationException
 from netmiko.exceptions import NetMikoTimeoutException
 from netmiko.exceptions import SSHException
 from colorama import Fore, Back, Style, init
-import textfsm
-import pprint
-
-#import logging
-#Enable debug (optional)
-#logging.basicConfig(filename='netmiko_logs.txt', level=logging.DEBUG)
-#logger = logging.getLogger("netmiko")
 
 print(Back.YELLOW)
-#print('\n' '.:.:. .:.:. .:.:. .:.:. .:.:.')
 print('\n' ' .:.:. Script initiated  .:.:.')
-#print('\n' '.:.:. .:.:. .:.:. .:.:. .:.:.')
+print(' ')
 #print('\n')
 print(Style.RESET_ALL)
 
-# Ask user for device credentials (same credentials userd for all devices)
+# Ask user for device credentials (same credentials are used for all switches)
 USER = input('Username: ')
 PASS = getpass.getpass('Password: ')
 # Comment out "EN" below if Enable password is not needed
@@ -41,14 +35,14 @@ print('\n')
 
 # Default device template
 device_template = {
-'device_type': 'cisco',
-'ip': '1.2.3.4',
-'username': USER,
-'password': PASS,
-'port':22,
+	'device_type': 'cisco',
+	'ip': '1.2.3.4',
+	'username': USER,
+	'password': PASS,
+	'port':22,
 # Remove comment below below if Enable password needs to be used
 #'secret': ENABLE,
-'blocking_timeout': 4 #Default = 8, if timeout problem increase to 16
+	'blocking_timeout': 4 #Default = 8, if timeout problem increase to 16
 }
 
 # Keep track of current time for timestamping log files

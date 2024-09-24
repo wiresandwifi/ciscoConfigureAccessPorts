@@ -1,0 +1,1098 @@
+
+Time: 2024-09-24 16:32:01
+Device: 10.10.10.1
+Unable to access the device (Authentication failed) 
+
+Time: 2024-09-24 16:32:01
+Device: 10.10.10.2
+Unable to access the device (Authentication failed) 
+
+Time: 2024-09-24 16:32:01
+Device: 10.10.10.4
+Unable to access the device (Timeout) 10.10.10.4
+
+Time: 2024-09-24 16:33:10
+Device: 10.10.10.1
+Unable to access the device (Authentication failed). 
+
+Time: 2024-09-24 16:33:10
+Device: 10.10.10.2
+Unable to access the device (Authentication failed). 
+
+Time: 2024-09-24 16:33:10
+Device: 10.10.10.4
+Unable to access the device (Timeout). 
+
+
+Time: 2024-09-24 16:34:14
+Device: 10.10.10.1
+Commands executed:
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW1(config)#interface Gi1/0/1
+SW1(config-if)#! Config is automatically saved after ALL commands are done!
+SW1(config-if)#description 19:40
+SW1(config-if)#load-interval 30
+SW1(config-if)#spanning-tree portfast
+SW1(config-if)#spanning-tree bpduguard enable
+SW1(config-if)#spanning-tree guard root
+SW1(config-if)#storm-control broadcast level pps 200 100
+SW1(config-if)#
+SW1(config-if)#end
+SW1#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW1(config)#interface Gi1/0/2
+SW1(config-if)#! Config is automatically saved after ALL commands are done!
+SW1(config-if)#description 19:40
+SW1(config-if)#load-interval 30
+SW1(config-if)#spanning-tree portfast
+SW1(config-if)#spanning-tree bpduguard enable
+SW1(config-if)#spanning-tree guard root
+SW1(config-if)#storm-control broadcast level pps 200 100
+SW1(config-if)#
+SW1(config-if)#end
+SW1#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW1(config)#interface Gi1/0/3
+SW1(config-if)#! Config is automatically saved after ALL commands are done!
+SW1(config-if)#description 19:40
+SW1(config-if)#load-interval 30
+SW1(config-if)#spanning-tree portfast
+SW1(config-if)#spanning-tree bpduguard enable
+SW1(config-if)#spanning-tree guard root
+SW1(config-if)#storm-control broadcast level pps 200 100
+SW1(config-if)#
+SW1(config-if)#end
+SW1#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW1(config)#interface Gi1/0/4
+SW1(config-if)#! Config is automatically saved after ALL commands are done!
+SW1(config-if)#description 19:40
+SW1(config-if)#load-interval 30
+SW1(config-if)#spanning-tree portfast
+SW1(config-if)#spanning-tree bpduguard enable
+SW1(config-if)#spanning-tree guard root
+SW1(config-if)#storm-control broadcast level pps 200 100
+SW1(config-if)#
+SW1(config-if)#end
+SW1#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW1(config)#interface Gi1/0/5
+SW1(config-if)#! Config is automatically saved after ALL commands are done!
+SW1(config-if)#description 19:40
+SW1(config-if)#load-interval 30
+SW1(config-if)#spanning-tree portfast
+SW1(config-if)#spanning-tree bpduguard enable
+SW1(config-if)#spanning-tree guard root
+SW1(config-if)#storm-control broadcast level pps 200 100
+SW1(config-if)#
+SW1(config-if)#end
+SW1#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW1(config)#interface Gi1/0/6
+SW1(config-if)#! Config is automatically saved after ALL commands are done!
+SW1(config-if)#description 19:40
+SW1(config-if)#load-interval 30
+SW1(config-if)#spanning-tree portfast
+SW1(config-if)#spanning-tree bpduguard enable
+SW1(config-if)#spanning-tree guard root
+SW1(config-if)#storm-control broadcast level pps 200 100
+SW1(config-if)#
+SW1(config-if)#end
+SW1#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW1(config)#interface Gi1/0/7
+SW1(config-if)#! Config is automatically saved after ALL commands are done!
+SW1(config-if)#description 19:40
+SW1(config-if)#load-interval 30
+SW1(config-if)#spanning-tree portfast
+SW1(config-if)#spanning-tree bpduguard enable
+SW1(config-if)#spanning-tree guard root
+SW1(config-if)#storm-control broadcast level pps 200 100
+SW1(config-if)#
+SW1(config-if)#end
+SW1#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW1(config)#interface Gi1/0/8
+SW1(config-if)#! Config is automatically saved after ALL commands are done!
+SW1(config-if)#description 19:40
+SW1(config-if)#load-interval 30
+SW1(config-if)#spanning-tree portfast
+SW1(config-if)#spanning-tree bpduguard enable
+SW1(config-if)#spanning-tree guard root
+SW1(config-if)#storm-control broadcast level pps 200 100
+SW1(config-if)#
+SW1(config-if)#end
+SW1#
+====== Saving configuration ======configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW1(config)#do write mem
+Building configuration...
+[OK]
+SW1(config)#end
+SW1#
+
+Time: 2024-09-24 16:34:14
+Device: 10.10.10.2
+Commands executed:
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW2(config)#interface Gi1/0/1
+SW2(config-if)#! Config is automatically saved after ALL commands are done!
+SW2(config-if)#description 19:40
+SW2(config-if)#load-interval 30
+SW2(config-if)#spanning-tree portfast
+SW2(config-if)#spanning-tree bpduguard enable
+SW2(config-if)#spanning-tree guard root
+SW2(config-if)#storm-control broadcast level pps 200 100
+SW2(config-if)#
+SW2(config-if)#end
+SW2#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW2(config)#interface Gi1/0/2
+SW2(config-if)#! Config is automatically saved after ALL commands are done!
+SW2(config-if)#description 19:40
+SW2(config-if)#load-interval 30
+SW2(config-if)#spanning-tree portfast
+SW2(config-if)#spanning-tree bpduguard enable
+SW2(config-if)#spanning-tree guard root
+SW2(config-if)#storm-control broadcast level pps 200 100
+SW2(config-if)#
+SW2(config-if)#end
+SW2#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW2(config)#interface Gi1/0/3
+SW2(config-if)#! Config is automatically saved after ALL commands are done!
+SW2(config-if)#description 19:40
+SW2(config-if)#load-interval 30
+SW2(config-if)#spanning-tree portfast
+SW2(config-if)#spanning-tree bpduguard enable
+SW2(config-if)#spanning-tree guard root
+SW2(config-if)#storm-control broadcast level pps 200 100
+SW2(config-if)#
+SW2(config-if)#end
+SW2#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW2(config)#interface Gi1/0/4
+SW2(config-if)#! Config is automatically saved after ALL commands are done!
+SW2(config-if)#description 19:40
+SW2(config-if)#load-interval 30
+SW2(config-if)#spanning-tree portfast
+SW2(config-if)#spanning-tree bpduguard enable
+SW2(config-if)#spanning-tree guard root
+SW2(config-if)#storm-control broadcast level pps 200 100
+SW2(config-if)#
+SW2(config-if)#end
+SW2#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW2(config)#interface Gi1/0/5
+SW2(config-if)#! Config is automatically saved after ALL commands are done!
+SW2(config-if)#description 19:40
+SW2(config-if)#load-interval 30
+SW2(config-if)#spanning-tree portfast
+SW2(config-if)#spanning-tree bpduguard enable
+SW2(config-if)#spanning-tree guard root
+SW2(config-if)#storm-control broadcast level pps 200 100
+SW2(config-if)#
+SW2(config-if)#end
+SW2#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW2(config)#interface Gi1/0/6
+SW2(config-if)#! Config is automatically saved after ALL commands are done!
+SW2(config-if)#description 19:40
+SW2(config-if)#load-interval 30
+SW2(config-if)#spanning-tree portfast
+SW2(config-if)#spanning-tree bpduguard enable
+SW2(config-if)#spanning-tree guard root
+SW2(config-if)#storm-control broadcast level pps 200 100
+SW2(config-if)#
+SW2(config-if)#end
+SW2#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW2(config)#interface Gi1/0/7
+SW2(config-if)#! Config is automatically saved after ALL commands are done!
+SW2(config-if)#description 19:40
+SW2(config-if)#load-interval 30
+SW2(config-if)#spanning-tree portfast
+SW2(config-if)#spanning-tree bpduguard enable
+SW2(config-if)#spanning-tree guard root
+SW2(config-if)#storm-control broadcast level pps 200 100
+SW2(config-if)#
+SW2(config-if)#end
+SW2#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW2(config)#interface Gi1/0/8
+SW2(config-if)#! Config is automatically saved after ALL commands are done!
+SW2(config-if)#description 19:40
+SW2(config-if)#load-interval 30
+SW2(config-if)#spanning-tree portfast
+SW2(config-if)#spanning-tree bpduguard enable
+SW2(config-if)#spanning-tree guard root
+SW2(config-if)#storm-control broadcast level pps 200 100
+SW2(config-if)#
+SW2(config-if)#end
+SW2#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW2(config)#interface Te1/1/4
+SW2(config-if)#! Config is automatically saved after ALL commands are done!
+SW2(config-if)#description 19:40
+SW2(config-if)#load-interval 30
+SW2(config-if)#spanning-tree portfast
+SW2(config-if)#spanning-tree bpduguard enable
+SW2(config-if)#spanning-tree guard root
+SW2(config-if)#storm-control broadcast level pps 200 100
+SW2(config-if)#
+SW2(config-if)#end
+SW2#
+====== Saving configuration ======configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW2(config)#do write mem
+Building configuration...
+[OK]
+SW2(config)#end
+SW2#
+Time: 2024-09-24 16:34:14
+Device: 10.10.10.4
+Unable to access the device (Timeout). 
+
+
+Time: 2024-09-24 16:36:11
+Device: 10.10.10.1
+Commands executed:
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW1(config)#interface Gi1/0/1
+SW1(config-if)#! Config is automatically saved after ALL commands are done!
+SW1(config-if)#description 19:40
+SW1(config-if)#load-interval 30
+SW1(config-if)#spanning-tree portfast
+SW1(config-if)#spanning-tree bpduguard enable
+SW1(config-if)#spanning-tree guard root
+SW1(config-if)#storm-control broadcast level pps 200 100
+SW1(config-if)#
+SW1(config-if)#end
+SW1#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW1(config)#interface Gi1/0/2
+SW1(config-if)#! Config is automatically saved after ALL commands are done!
+SW1(config-if)#description 19:40
+SW1(config-if)#load-interval 30
+SW1(config-if)#spanning-tree portfast
+SW1(config-if)#spanning-tree bpduguard enable
+SW1(config-if)#spanning-tree guard root
+SW1(config-if)#storm-control broadcast level pps 200 100
+SW1(config-if)#
+SW1(config-if)#end
+SW1#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW1(config)#interface Gi1/0/3
+SW1(config-if)#! Config is automatically saved after ALL commands are done!
+SW1(config-if)#description 19:40
+SW1(config-if)#load-interval 30
+SW1(config-if)#spanning-tree portfast
+SW1(config-if)#spanning-tree bpduguard enable
+SW1(config-if)#spanning-tree guard root
+SW1(config-if)#storm-control broadcast level pps 200 100
+SW1(config-if)#
+SW1(config-if)#end
+SW1#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW1(config)#interface Gi1/0/4
+SW1(config-if)#! Config is automatically saved after ALL commands are done!
+SW1(config-if)#description 19:40
+SW1(config-if)#load-interval 30
+SW1(config-if)#spanning-tree portfast
+SW1(config-if)#spanning-tree bpduguard enable
+SW1(config-if)#spanning-tree guard root
+SW1(config-if)#storm-control broadcast level pps 200 100
+SW1(config-if)#
+SW1(config-if)#end
+SW1#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW1(config)#interface Gi1/0/5
+SW1(config-if)#! Config is automatically saved after ALL commands are done!
+SW1(config-if)#description 19:40
+SW1(config-if)#load-interval 30
+SW1(config-if)#spanning-tree portfast
+SW1(config-if)#spanning-tree bpduguard enable
+SW1(config-if)#spanning-tree guard root
+SW1(config-if)#storm-control broadcast level pps 200 100
+SW1(config-if)#
+SW1(config-if)#end
+SW1#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW1(config)#interface Gi1/0/6
+SW1(config-if)#! Config is automatically saved after ALL commands are done!
+SW1(config-if)#description 19:40
+SW1(config-if)#load-interval 30
+SW1(config-if)#spanning-tree portfast
+SW1(config-if)#spanning-tree bpduguard enable
+SW1(config-if)#spanning-tree guard root
+SW1(config-if)#storm-control broadcast level pps 200 100
+SW1(config-if)#
+SW1(config-if)#end
+SW1#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW1(config)#interface Gi1/0/7
+SW1(config-if)#! Config is automatically saved after ALL commands are done!
+SW1(config-if)#description 19:40
+SW1(config-if)#load-interval 30
+SW1(config-if)#spanning-tree portfast
+SW1(config-if)#spanning-tree bpduguard enable
+SW1(config-if)#spanning-tree guard root
+SW1(config-if)#storm-control broadcast level pps 200 100
+SW1(config-if)#
+SW1(config-if)#end
+SW1#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW1(config)#interface Gi1/0/8
+SW1(config-if)#! Config is automatically saved after ALL commands are done!
+SW1(config-if)#description 19:40
+SW1(config-if)#load-interval 30
+SW1(config-if)#spanning-tree portfast
+SW1(config-if)#spanning-tree bpduguard enable
+SW1(config-if)#spanning-tree guard root
+SW1(config-if)#storm-control broadcast level pps 200 100
+SW1(config-if)#
+SW1(config-if)#end
+SW1#
+====== Saving configuration ======configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW1(config)#do write mem
+Building configuration...
+[OK]
+SW1(config)#end
+SW1#
+
+Time: 2024-09-24 16:36:11
+Device: 10.10.10.2
+Commands executed:
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW2(config)#interface Gi1/0/1
+SW2(config-if)#! Config is automatically saved after ALL commands are done!
+SW2(config-if)#description 19:40
+SW2(config-if)#load-interval 30
+SW2(config-if)#spanning-tree portfast
+SW2(config-if)#spanning-tree bpduguard enable
+SW2(config-if)#spanning-tree guard root
+SW2(config-if)#storm-control broadcast level pps 200 100
+SW2(config-if)#
+SW2(config-if)#end
+SW2#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW2(config)#interface Gi1/0/2
+SW2(config-if)#! Config is automatically saved after ALL commands are done!
+SW2(config-if)#description 19:40
+SW2(config-if)#load-interval 30
+SW2(config-if)#spanning-tree portfast
+SW2(config-if)#spanning-tree bpduguard enable
+SW2(config-if)#spanning-tree guard root
+SW2(config-if)#storm-control broadcast level pps 200 100
+SW2(config-if)#
+SW2(config-if)#end
+SW2#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW2(config)#interface Gi1/0/3
+SW2(config-if)#! Config is automatically saved after ALL commands are done!
+SW2(config-if)#description 19:40
+SW2(config-if)#load-interval 30
+SW2(config-if)#spanning-tree portfast
+SW2(config-if)#spanning-tree bpduguard enable
+SW2(config-if)#spanning-tree guard root
+SW2(config-if)#storm-control broadcast level pps 200 100
+SW2(config-if)#
+SW2(config-if)#end
+SW2#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW2(config)#interface Gi1/0/4
+SW2(config-if)#! Config is automatically saved after ALL commands are done!
+SW2(config-if)#description 19:40
+SW2(config-if)#load-interval 30
+SW2(config-if)#spanning-tree portfast
+SW2(config-if)#spanning-tree bpduguard enable
+SW2(config-if)#spanning-tree guard root
+SW2(config-if)#storm-control broadcast level pps 200 100
+SW2(config-if)#
+SW2(config-if)#end
+SW2#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW2(config)#interface Gi1/0/5
+SW2(config-if)#! Config is automatically saved after ALL commands are done!
+SW2(config-if)#description 19:40
+SW2(config-if)#load-interval 30
+SW2(config-if)#spanning-tree portfast
+SW2(config-if)#spanning-tree bpduguard enable
+SW2(config-if)#spanning-tree guard root
+SW2(config-if)#storm-control broadcast level pps 200 100
+SW2(config-if)#
+SW2(config-if)#end
+SW2#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW2(config)#interface Gi1/0/6
+SW2(config-if)#! Config is automatically saved after ALL commands are done!
+SW2(config-if)#description 19:40
+SW2(config-if)#load-interval 30
+SW2(config-if)#spanning-tree portfast
+SW2(config-if)#spanning-tree bpduguard enable
+SW2(config-if)#spanning-tree guard root
+SW2(config-if)#storm-control broadcast level pps 200 100
+SW2(config-if)#
+SW2(config-if)#end
+SW2#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW2(config)#interface Gi1/0/7
+SW2(config-if)#! Config is automatically saved after ALL commands are done!
+SW2(config-if)#description 19:40
+SW2(config-if)#load-interval 30
+SW2(config-if)#spanning-tree portfast
+SW2(config-if)#spanning-tree bpduguard enable
+SW2(config-if)#spanning-tree guard root
+SW2(config-if)#storm-control broadcast level pps 200 100
+SW2(config-if)#
+SW2(config-if)#end
+SW2#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW2(config)#interface Gi1/0/8
+SW2(config-if)#! Config is automatically saved after ALL commands are done!
+SW2(config-if)#description 19:40
+SW2(config-if)#load-interval 30
+SW2(config-if)#spanning-tree portfast
+SW2(config-if)#spanning-tree bpduguard enable
+SW2(config-if)#spanning-tree guard root
+SW2(config-if)#storm-control broadcast level pps 200 100
+SW2(config-if)#
+SW2(config-if)#end
+SW2#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW2(config)#interface Te1/1/4
+SW2(config-if)#! Config is automatically saved after ALL commands are done!
+SW2(config-if)#description 19:40
+SW2(config-if)#load-interval 30
+SW2(config-if)#spanning-tree portfast
+SW2(config-if)#spanning-tree bpduguard enable
+SW2(config-if)#spanning-tree guard root
+SW2(config-if)#storm-control broadcast level pps 200 100
+SW2(config-if)#
+SW2(config-if)#end
+SW2#
+====== Saving configuration ======configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW2(config)#do write mem
+Building configuration...
+[OK]
+SW2(config)#end
+SW2#
+
+Time: 2024-09-24 16:36:11
+Device: 10.10.10.4
+Unable to access the device (Timeout). 
+
+
+Time: 2024-09-24 16:36:39
+Device: 10.10.10.1
+Unable to access the device (Authentication failed). 
+
+
+Time: 2024-09-24 16:36:39
+Device: 10.10.10.2
+Unable to access the device (Authentication failed). 
+
+
+Time: 2024-09-24 16:36:39
+Device: 10.10.10.4
+Unable to access the device (Timeout). 
+
+
+Time: 2024-09-24 16:37:42
+Device: 10.10.10.1
+Commands executed:
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW1(config)#interface Gi1/0/1
+SW1(config-if)#! Config is automatically saved after ALL commands are done!
+SW1(config-if)#description 19:40
+SW1(config-if)#load-interval 30
+SW1(config-if)#spanning-tree portfast
+SW1(config-if)#spanning-tree bpduguard enable
+SW1(config-if)#spanning-tree guard root
+SW1(config-if)#storm-control broadcast level pps 200 100
+SW1(config-if)#
+SW1(config-if)#end
+SW1#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW1(config)#interface Gi1/0/2
+SW1(config-if)#! Config is automatically saved after ALL commands are done!
+SW1(config-if)#description 19:40
+SW1(config-if)#load-interval 30
+SW1(config-if)#spanning-tree portfast
+SW1(config-if)#spanning-tree bpduguard enable
+SW1(config-if)#spanning-tree guard root
+SW1(config-if)#storm-control broadcast level pps 200 100
+SW1(config-if)#
+SW1(config-if)#end
+SW1#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW1(config)#interface Gi1/0/3
+SW1(config-if)#! Config is automatically saved after ALL commands are done!
+SW1(config-if)#description 19:40
+SW1(config-if)#load-interval 30
+SW1(config-if)#spanning-tree portfast
+SW1(config-if)#spanning-tree bpduguard enable
+SW1(config-if)#spanning-tree guard root
+SW1(config-if)#storm-control broadcast level pps 200 100
+SW1(config-if)#
+SW1(config-if)#end
+SW1#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW1(config)#interface Gi1/0/4
+SW1(config-if)#! Config is automatically saved after ALL commands are done!
+SW1(config-if)#description 19:40
+SW1(config-if)#load-interval 30
+SW1(config-if)#spanning-tree portfast
+SW1(config-if)#spanning-tree bpduguard enable
+SW1(config-if)#spanning-tree guard root
+SW1(config-if)#storm-control broadcast level pps 200 100
+SW1(config-if)#
+SW1(config-if)#end
+SW1#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW1(config)#interface Gi1/0/5
+SW1(config-if)#! Config is automatically saved after ALL commands are done!
+SW1(config-if)#description 19:40
+SW1(config-if)#load-interval 30
+SW1(config-if)#spanning-tree portfast
+SW1(config-if)#spanning-tree bpduguard enable
+SW1(config-if)#spanning-tree guard root
+SW1(config-if)#storm-control broadcast level pps 200 100
+SW1(config-if)#
+SW1(config-if)#end
+SW1#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW1(config)#interface Gi1/0/6
+SW1(config-if)#! Config is automatically saved after ALL commands are done!
+SW1(config-if)#description 19:40
+SW1(config-if)#load-interval 30
+SW1(config-if)#spanning-tree portfast
+SW1(config-if)#spanning-tree bpduguard enable
+SW1(config-if)#spanning-tree guard root
+SW1(config-if)#storm-control broadcast level pps 200 100
+SW1(config-if)#
+SW1(config-if)#end
+SW1#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW1(config)#interface Gi1/0/7
+SW1(config-if)#! Config is automatically saved after ALL commands are done!
+SW1(config-if)#description 19:40
+SW1(config-if)#load-interval 30
+SW1(config-if)#spanning-tree portfast
+SW1(config-if)#spanning-tree bpduguard enable
+SW1(config-if)#spanning-tree guard root
+SW1(config-if)#storm-control broadcast level pps 200 100
+SW1(config-if)#
+SW1(config-if)#end
+SW1#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW1(config)#interface Gi1/0/8
+SW1(config-if)#! Config is automatically saved after ALL commands are done!
+SW1(config-if)#description 19:40
+SW1(config-if)#load-interval 30
+SW1(config-if)#spanning-tree portfast
+SW1(config-if)#spanning-tree bpduguard enable
+SW1(config-if)#spanning-tree guard root
+SW1(config-if)#storm-control broadcast level pps 200 100
+SW1(config-if)#
+SW1(config-if)#end
+SW1#
+====== Saving configuration ======configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW1(config)#do write mem
+Building configuration...
+[OK]
+SW1(config)#end
+SW1#
+
+Time: 2024-09-24 16:37:42
+Device: 10.10.10.2
+Commands executed:
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW2(config)#interface Gi1/0/1
+SW2(config-if)#! Config is automatically saved after ALL commands are done!
+SW2(config-if)#description 19:40
+SW2(config-if)#load-interval 30
+SW2(config-if)#spanning-tree portfast
+SW2(config-if)#spanning-tree bpduguard enable
+SW2(config-if)#spanning-tree guard root
+SW2(config-if)#storm-control broadcast level pps 200 100
+SW2(config-if)#
+SW2(config-if)#end
+SW2#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW2(config)#interface Gi1/0/2
+SW2(config-if)#! Config is automatically saved after ALL commands are done!
+SW2(config-if)#description 19:40
+SW2(config-if)#load-interval 30
+SW2(config-if)#spanning-tree portfast
+SW2(config-if)#spanning-tree bpduguard enable
+SW2(config-if)#spanning-tree guard root
+SW2(config-if)#storm-control broadcast level pps 200 100
+SW2(config-if)#
+SW2(config-if)#end
+SW2#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW2(config)#interface Gi1/0/3
+SW2(config-if)#! Config is automatically saved after ALL commands are done!
+SW2(config-if)#description 19:40
+SW2(config-if)#load-interval 30
+SW2(config-if)#spanning-tree portfast
+SW2(config-if)#spanning-tree bpduguard enable
+SW2(config-if)#spanning-tree guard root
+SW2(config-if)#storm-control broadcast level pps 200 100
+SW2(config-if)#
+SW2(config-if)#end
+SW2#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW2(config)#interface Gi1/0/4
+SW2(config-if)#! Config is automatically saved after ALL commands are done!
+SW2(config-if)#description 19:40
+SW2(config-if)#load-interval 30
+SW2(config-if)#spanning-tree portfast
+SW2(config-if)#spanning-tree bpduguard enable
+SW2(config-if)#spanning-tree guard root
+SW2(config-if)#storm-control broadcast level pps 200 100
+SW2(config-if)#
+SW2(config-if)#end
+SW2#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW2(config)#interface Gi1/0/5
+SW2(config-if)#! Config is automatically saved after ALL commands are done!
+SW2(config-if)#description 19:40
+SW2(config-if)#load-interval 30
+SW2(config-if)#spanning-tree portfast
+SW2(config-if)#spanning-tree bpduguard enable
+SW2(config-if)#spanning-tree guard root
+SW2(config-if)#storm-control broadcast level pps 200 100
+SW2(config-if)#
+SW2(config-if)#end
+SW2#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW2(config)#interface Gi1/0/6
+SW2(config-if)#! Config is automatically saved after ALL commands are done!
+SW2(config-if)#description 19:40
+SW2(config-if)#load-interval 30
+SW2(config-if)#spanning-tree portfast
+SW2(config-if)#spanning-tree bpduguard enable
+SW2(config-if)#spanning-tree guard root
+SW2(config-if)#storm-control broadcast level pps 200 100
+SW2(config-if)#
+SW2(config-if)#end
+SW2#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW2(config)#interface Gi1/0/7
+SW2(config-if)#! Config is automatically saved after ALL commands are done!
+SW2(config-if)#description 19:40
+SW2(config-if)#load-interval 30
+SW2(config-if)#spanning-tree portfast
+SW2(config-if)#spanning-tree bpduguard enable
+SW2(config-if)#spanning-tree guard root
+SW2(config-if)#storm-control broadcast level pps 200 100
+SW2(config-if)#
+SW2(config-if)#end
+SW2#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW2(config)#interface Gi1/0/8
+SW2(config-if)#! Config is automatically saved after ALL commands are done!
+SW2(config-if)#description 19:40
+SW2(config-if)#load-interval 30
+SW2(config-if)#spanning-tree portfast
+SW2(config-if)#spanning-tree bpduguard enable
+SW2(config-if)#spanning-tree guard root
+SW2(config-if)#storm-control broadcast level pps 200 100
+SW2(config-if)#
+SW2(config-if)#end
+SW2#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW2(config)#interface Te1/1/4
+SW2(config-if)#! Config is automatically saved after ALL commands are done!
+SW2(config-if)#description 19:40
+SW2(config-if)#load-interval 30
+SW2(config-if)#spanning-tree portfast
+SW2(config-if)#spanning-tree bpduguard enable
+SW2(config-if)#spanning-tree guard root
+SW2(config-if)#storm-control broadcast level pps 200 100
+SW2(config-if)#
+SW2(config-if)#end
+SW2#
+====== Saving configuration ======configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW2(config)#do write mem
+Building configuration...
+[OK]
+SW2(config)#end
+SW2#
+
+Time: 2024-09-24 16:37:42
+Device: 10.10.10.4
+Unable to access the device (Timeout). 
+
+
+Time: 2024-09-24 16:38:40
+Device: 10.10.10.1
+Commands executed:
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW1(config)#interface Gi1/0/1
+SW1(config-if)#! Config is automatically saved after ALL commands are done!
+SW1(config-if)#description 19:40
+SW1(config-if)#load-interval 30
+SW1(config-if)#spanning-tree portfast
+SW1(config-if)#spanning-tree bpduguard enable
+SW1(config-if)#spanning-tree guard root
+SW1(config-if)#storm-control broadcast level pps 200 100
+SW1(config-if)#
+SW1(config-if)#end
+SW1#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW1(config)#interface Gi1/0/2
+SW1(config-if)#! Config is automatically saved after ALL commands are done!
+SW1(config-if)#description 19:40
+SW1(config-if)#load-interval 30
+SW1(config-if)#spanning-tree portfast
+SW1(config-if)#spanning-tree bpduguard enable
+SW1(config-if)#spanning-tree guard root
+SW1(config-if)#storm-control broadcast level pps 200 100
+SW1(config-if)#
+SW1(config-if)#end
+SW1#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW1(config)#interface Gi1/0/3
+SW1(config-if)#! Config is automatically saved after ALL commands are done!
+SW1(config-if)#description 19:40
+SW1(config-if)#load-interval 30
+SW1(config-if)#spanning-tree portfast
+SW1(config-if)#spanning-tree bpduguard enable
+SW1(config-if)#spanning-tree guard root
+SW1(config-if)#storm-control broadcast level pps 200 100
+SW1(config-if)#
+SW1(config-if)#end
+SW1#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW1(config)#interface Gi1/0/4
+SW1(config-if)#! Config is automatically saved after ALL commands are done!
+SW1(config-if)#description 19:40
+SW1(config-if)#load-interval 30
+SW1(config-if)#spanning-tree portfast
+SW1(config-if)#spanning-tree bpduguard enable
+SW1(config-if)#spanning-tree guard root
+SW1(config-if)#storm-control broadcast level pps 200 100
+SW1(config-if)#
+SW1(config-if)#end
+SW1#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW1(config)#interface Gi1/0/5
+SW1(config-if)#! Config is automatically saved after ALL commands are done!
+SW1(config-if)#description 19:40
+SW1(config-if)#load-interval 30
+SW1(config-if)#spanning-tree portfast
+SW1(config-if)#spanning-tree bpduguard enable
+SW1(config-if)#spanning-tree guard root
+SW1(config-if)#storm-control broadcast level pps 200 100
+SW1(config-if)#
+SW1(config-if)#end
+SW1#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW1(config)#interface Gi1/0/6
+SW1(config-if)#! Config is automatically saved after ALL commands are done!
+SW1(config-if)#description 19:40
+SW1(config-if)#load-interval 30
+SW1(config-if)#spanning-tree portfast
+SW1(config-if)#spanning-tree bpduguard enable
+SW1(config-if)#spanning-tree guard root
+SW1(config-if)#storm-control broadcast level pps 200 100
+SW1(config-if)#
+SW1(config-if)#end
+SW1#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW1(config)#interface Gi1/0/7
+SW1(config-if)#! Config is automatically saved after ALL commands are done!
+SW1(config-if)#description 19:40
+SW1(config-if)#load-interval 30
+SW1(config-if)#spanning-tree portfast
+SW1(config-if)#spanning-tree bpduguard enable
+SW1(config-if)#spanning-tree guard root
+SW1(config-if)#storm-control broadcast level pps 200 100
+SW1(config-if)#
+SW1(config-if)#end
+SW1#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW1(config)#interface Gi1/0/8
+SW1(config-if)#! Config is automatically saved after ALL commands are done!
+SW1(config-if)#description 19:40
+SW1(config-if)#load-interval 30
+SW1(config-if)#spanning-tree portfast
+SW1(config-if)#spanning-tree bpduguard enable
+SW1(config-if)#spanning-tree guard root
+SW1(config-if)#storm-control broadcast level pps 200 100
+SW1(config-if)#
+SW1(config-if)#end
+SW1#
+====== Saving configuration ======configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW1(config)#do write mem
+Building configuration...
+[OK]
+SW1(config)#end
+SW1#
+
+Time: 2024-09-24 16:38:40
+Device: 10.10.10.2
+Commands executed:
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW2(config)#interface Gi1/0/1
+SW2(config-if)#! Config is automatically saved after ALL commands are done!
+SW2(config-if)#description 19:40
+SW2(config-if)#load-interval 30
+SW2(config-if)#spanning-tree portfast
+SW2(config-if)#spanning-tree bpduguard enable
+SW2(config-if)#spanning-tree guard root
+SW2(config-if)#storm-control broadcast level pps 200 100
+SW2(config-if)#
+SW2(config-if)#end
+SW2#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW2(config)#interface Gi1/0/2
+SW2(config-if)#! Config is automatically saved after ALL commands are done!
+SW2(config-if)#description 19:40
+SW2(config-if)#load-interval 30
+SW2(config-if)#spanning-tree portfast
+SW2(config-if)#spanning-tree bpduguard enable
+SW2(config-if)#spanning-tree guard root
+SW2(config-if)#storm-control broadcast level pps 200 100
+SW2(config-if)#
+SW2(config-if)#end
+SW2#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW2(config)#interface Gi1/0/3
+SW2(config-if)#! Config is automatically saved after ALL commands are done!
+SW2(config-if)#description 19:40
+SW2(config-if)#load-interval 30
+SW2(config-if)#spanning-tree portfast
+SW2(config-if)#spanning-tree bpduguard enable
+SW2(config-if)#spanning-tree guard root
+SW2(config-if)#storm-control broadcast level pps 200 100
+SW2(config-if)#
+SW2(config-if)#end
+SW2#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW2(config)#interface Gi1/0/4
+SW2(config-if)#! Config is automatically saved after ALL commands are done!
+SW2(config-if)#description 19:40
+SW2(config-if)#load-interval 30
+SW2(config-if)#spanning-tree portfast
+SW2(config-if)#spanning-tree bpduguard enable
+SW2(config-if)#spanning-tree guard root
+SW2(config-if)#storm-control broadcast level pps 200 100
+SW2(config-if)#
+SW2(config-if)#end
+SW2#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW2(config)#interface Gi1/0/5
+SW2(config-if)#! Config is automatically saved after ALL commands are done!
+SW2(config-if)#description 19:40
+SW2(config-if)#load-interval 30
+SW2(config-if)#spanning-tree portfast
+SW2(config-if)#spanning-tree bpduguard enable
+SW2(config-if)#spanning-tree guard root
+SW2(config-if)#storm-control broadcast level pps 200 100
+SW2(config-if)#
+SW2(config-if)#end
+SW2#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW2(config)#interface Gi1/0/6
+SW2(config-if)#! Config is automatically saved after ALL commands are done!
+SW2(config-if)#description 19:40
+SW2(config-if)#load-interval 30
+SW2(config-if)#spanning-tree portfast
+SW2(config-if)#spanning-tree bpduguard enable
+SW2(config-if)#spanning-tree guard root
+SW2(config-if)#storm-control broadcast level pps 200 100
+SW2(config-if)#
+SW2(config-if)#end
+SW2#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW2(config)#interface Gi1/0/7
+SW2(config-if)#! Config is automatically saved after ALL commands are done!
+SW2(config-if)#description 19:40
+SW2(config-if)#load-interval 30
+SW2(config-if)#spanning-tree portfast
+SW2(config-if)#spanning-tree bpduguard enable
+SW2(config-if)#spanning-tree guard root
+SW2(config-if)#storm-control broadcast level pps 200 100
+SW2(config-if)#
+SW2(config-if)#end
+SW2#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW2(config)#interface Gi1/0/8
+SW2(config-if)#! Config is automatically saved after ALL commands are done!
+SW2(config-if)#description 19:40
+SW2(config-if)#load-interval 30
+SW2(config-if)#spanning-tree portfast
+SW2(config-if)#spanning-tree bpduguard enable
+SW2(config-if)#spanning-tree guard root
+SW2(config-if)#storm-control broadcast level pps 200 100
+SW2(config-if)#
+SW2(config-if)#end
+SW2#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW2(config)#interface Te1/1/4
+SW2(config-if)#! Config is automatically saved after ALL commands are done!
+SW2(config-if)#description 19:40
+SW2(config-if)#load-interval 30
+SW2(config-if)#spanning-tree portfast
+SW2(config-if)#spanning-tree bpduguard enable
+SW2(config-if)#spanning-tree guard root
+SW2(config-if)#storm-control broadcast level pps 200 100
+SW2(config-if)#
+SW2(config-if)#end
+SW2#
+====== Saving configuration ======configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW2(config)#do write mem
+Building configuration...
+[OK]
+SW2(config)#end
+SW2#
+
+Time: 2024-09-24 16:38:40
+Device: 10.10.10.4
+Unable to access the device (Timeout). 

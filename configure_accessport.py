@@ -26,7 +26,7 @@ print(Style.RESET_ALL)
 # Ask user for device credentials (same credentials are used for all devices)
 USER = input("Username: ")
 PASS = getpass.getpass("Password: ")
-# Comment out "ENABLE" below if Enable password is not needed
+# Un-comment below if Enable password is required to log in to the devices
 # ENABLE = getpass.getpass("Enable: ")
 print("\n")
 print("CONNECTING TO DEVICES... ")
@@ -40,7 +40,7 @@ device_template = {
 	"username": USER,
 	"password": PASS,
 	"port":22,
-	# Remove comment below below if Enable password needs to be used
+	# Un-comment below below if Enable password needs to be used
 	#"secret": ENABLE,
 	"blocking_timeout": 4 #Default = 8, if timeout problem increase to 16
 }
@@ -80,11 +80,13 @@ for row in list_of_devices:
 		interface_data = net_connect.send_command("show interfaces switchport", use_textfsm=True)
 		
 		# Print output from show interfaces switchport using pprint for better visibility
-		pprint.pp(interface_data)
+		# Un-comment line below to see parsed result of "show interfaces switchport"
+		#pprint.pp(interface_data)
 		# Inform that configuration will be sent to the device
 		print("====== Running commands on", device_template["ip"], "   ======")
 		# Open log file and append append timestamp and device IP/hostname
 		log = open("log_file.txt", "a")
+		log.write("\n")
 		log.write("\n")
 		log.write("Time: " + current_time)
 		log.write("\n")
@@ -121,6 +123,7 @@ for row in list_of_devices:
 		print(Back.CYAN + Fore.BLACK + "====== Finished! Saving Configuration on device", device_template["ip"], " ======" + Style.RESET_ALL)		
 		save_now = net_connect.send_config_set("do write mem")
 		log = open("log_file.txt", "a")
+		log.write("====== Saving configuration ======")
 		log.write(save_now)
 		# Disconnect from device
 		net_connect.disconnect()
@@ -130,14 +133,16 @@ for row in list_of_devices:
 		print ("====== Logging OUT from device", device_template["ip"]," ======")
 		print("\n")
 
-	# Manage and log Authentication Failures to device
+	# Manage and log authentication failures to device
 	except AuthenticationException as err1:
 		log = open("log_file.txt", "a")
 		log.write("\n")
-		log.write(current_time)
 		log.write("\n")
-		log.write("Unable to access the device (Authentication failed) ")
-		log.write(device_template["ip"])
+		log.write("Time: " + current_time)
+		log.write("\n")
+		log.write("Device: " + device_template["ip"])
+		log.write("\n")
+		log.write("Unable to access the device (Authentication failed). ")
 		log.write("\n")
 		print(Fore.BLACK + Back.RED + "====== Unable to access device", device_template["ip"]," ======" + Style.RESET_ALL)
 		# Increase failed_devices variable
@@ -148,15 +153,18 @@ for row in list_of_devices:
 		# Save first line of converted exception error (contains failure reason) as variable
 		# Add(append) failure reason of failed connection attempt to list "failed_devices_reason"
 		failed_devices_reason.append("Authentication to device failed.")
+		log.close()
 
 	# Manage and log Timeout Exception (device unreachable)
 	except NetMikoTimeoutException as err2:
 		log = open("log_file.txt", "a")
 		log.write("\n")
-		log.write(current_time)
 		log.write("\n")
-		log.write("Unable to access the device (Timeout) ")
-		log.write(device_template["ip"])
+		log.write("Time: " + current_time)
+		log.write("\n")
+		log.write("Device: " + device_template["ip"])
+		log.write("\n")
+		log.write("Unable to access the device (Timeout). ")
 		log.write("\n")
 		print(Fore.BLACK + Back.RED + "====== Unable to access device", device_template["ip"], " ======" + Style.RESET_ALL)
 		
@@ -166,16 +174,17 @@ for row in list_of_devices:
 		failed_devices_ip.append(device_template["ip"])
 		# Add(append) failure reason of failed connection attempt to list
 		failed_devices_reason.append("Connection to device failed.")
-
 		log.close()
+
 	# Manage and log other Exceptions
 	except SSHException as e:
 		log = open("log_file.txt", "a")
 		log.write("\n")
-		log.write(current_time)
+		log.write("Time: " + current_time)
 		log.write("\n")
-		log.write("Unable to access the device (Unknown Error)")
-		log.write(device_template["ip"])
+		log.write("Device: " + device_template["ip"])
+		log.write("\n")
+		log.write("Unable to access the device (Unknown Error). ")
 		log.write("\n")
 		print(Fore.BLACK + Back.RED + "====== Unable to access device", device_template["ip"]," ======" + Style.RESET_ALL)
 		# Increase failed_devices variable by 1
@@ -184,7 +193,6 @@ for row in list_of_devices:
 		failed_devices_ip.append(device_template["ip"])
 		# Add(append) reason of failed connection attempt to list
 		failed_devices_reason.append("Connection failed (Unknown Error).")
-
 		log.close()
 
 # If there are failed devices, print the IP address and reason for failure
@@ -193,7 +201,7 @@ if failed_devices_amount > 0:
 	print(Fore.BLACK + Back.RED + "Failed to connect to", failed_devices_amount, "device(s): " +  Style.RESET_ALL)
 	# Print IP address and Reason for failed devices
 	for ip, reason in zip(failed_devices_ip, failed_devices_reason):
-			print(ip,"-",reason,)
+		print(ip,"-",reason,)
 else:
 	pass
 

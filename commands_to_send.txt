@@ -1,8 +1,2 @@
-! Config is automatically saved after ALL commands are done!
-description 19:40
+description AccessPort
 load-interval 30
-spanning-tree portfast
-spanning-tree bpduguard enable 
-spanning-tree guard root
-storm-control broadcast level pps 200 100
-

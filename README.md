@@ -15,8 +15,9 @@ Uses a CSV file to import which switches to configure and a simple text file wit
 - Saves results into a log textfile.
 
 # How To Use
-- Install Python
-- Install modules found in requirements.txt
+- Install Python.
+- Install modules found in requirements.txt.
+  - Use "pip install -r requirements.txt" to install all modules automatically
 - Configure CSV file with port/service and IP/hostname of network device
 - Configure text file commands_to_send.txt with commands to send to network device
 

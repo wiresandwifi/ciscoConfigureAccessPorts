@@ -1,3 +1,6 @@
+![waw-banner](https://github.com/user-attachments/assets/d8ddb7ea-8d0a-46ab-8e6d-92d2517e93e7)
+
+
 # Cisco Configure Access Ports
 Python script to configure ONLY the Access Ports on any number of Cisco switches.<br> 
 Uses a CSV file to import which switches to configure and a simple text file with commands to run.<br><br>
@@ -8,7 +11,7 @@ Useful for deploying access port specific configuration like VLANs, spanning-tre
 Originally inspired by [andreirapuru/netmiko_send_commands](https://github.com/andreirapuru/netmiko_send_commands)<br>
 
 # Requirements
-- Python 3.12.6 (but might work on earlier releases too).<br>
+- Python 3.12.6 (but probably works on earlier releases too).<br>
 - See requirements.txt for required modules.<br>
 
 # Features

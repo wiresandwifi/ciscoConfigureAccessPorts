@@ -5,7 +5,7 @@
 Python script to configure ONLY the Access Ports on any number of Cisco switches.<br> 
 Uses a CSV file to import which switches to configure and a simple text file with commands to run.<br><br>
 
-Useful for deploying access port specific configuration like VLANs, spanning-tree settings, 802.1x/MAB IBNS 1.0/2.0 policies etc.<br>
+Useful for deploying access port specific configuration like VLANs, spanning-tree settings, 802.1x/MAB IBNS 1.0/2.0 policies, device tracking etc.<br>
 
 # Credits
 Originally inspired by [andreirapuru/netmiko_send_commands](https://github.com/andreirapuru/netmiko_send_commands)<br>

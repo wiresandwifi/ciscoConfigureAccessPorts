@@ -7,8 +7,8 @@ Uses a CSV file to import which switches to configure and a simple text file wit
 - See requirements.txt for needed modules<br>
 
 # Features
-- Support switches running both IOS-XE and IOS software. 
-- Support both SSH and Telnet connections.
+- Supports switches running both IOS-XE and IOS software. 
+- Supports both SSH and Telnet connections.
 - Supports both IP and DNS names to connect to network device.
 - Includes prompt coloring to make script easier to read.
 - Uses ntc-templates to parse show command for finding all access ports.
@@ -17,9 +17,13 @@ Uses a CSV file to import which switches to configure and a simple text file wit
 # How To Use
 - Install Python.
 - Install modules found in requirements.txt.
-  - Use "pip install -r requirements.txt" to install all modules automatically
-- Configure CSV file with port/service and IP/hostname of network device
-- Configure text file commands_to_send.txt with commands to send to network device
+  - Use "pip install -r requirements.txt" to install all modules automatically.
+- Configure CSV file with port/service and IP/hostname of network device.
+- Configure text file commands_to_send.txt with commands to send to network device.
+- Run configure_accessport.py to start the script.
+- Enter username, password (and optionally enable password, see comments in configure_accessport.py).
+- Commands are executed on device one by one and logged to textfile.
+- At the end of script, user is informed of failed connections.
 
 # Example
 

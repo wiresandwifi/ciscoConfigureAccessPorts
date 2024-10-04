@@ -18,11 +18,12 @@ Uses a CSV file to import which switches to configure and a simple text file wit
 - Install Python.
 - Install modules found in requirements.txt.
   - Use "pip install -r requirements.txt" to install all modules automatically.
-- Configure CSV file with port/service and IP/hostname of network device.
-- Configure text file commands_to_send.txt with commands to send to network device.
+- Configure CSV file with port/service and IP/hostname of network devices.
+- Configure text file commands_to_send.txt with commands to send to network devices.
 - Run configure_accessport.py to start the script.
 - Enter username, password (and optionally enable password, see comments in configure_accessport.py).
-- Commands are executed on device one by one and logged to textfile.
+- Confirm you want to push commands to X devices.
+- Commands are executed on network devices one by one and logged to textfile.
 - At the end of script, user is informed of failed connections.
 
 # Support

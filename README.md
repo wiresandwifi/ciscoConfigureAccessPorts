@@ -25,6 +25,11 @@ Uses a CSV file to import which switches to configure and a simple text file wit
 - Commands are executed on device one by one and logged to textfile.
 - At the end of script, user is informed of failed connections.
 
+# Support
+- No support is given for this script.
+- Always test the script in a test environment before trying it in a production environment. 
+- Use at your own risk.
+
 # Example
 
 Preview of number of devices that will be configured and asks to proceed.

@@ -8,7 +8,7 @@ Useful for deploying access port specific configuration like VLANs, spanning-tre
 Originally inspired by [andreirapuru/netmiko_send_commands](https://github.com/andreirapuru/netmiko_send_commands)<br>
 
 # Requirements
-- Python 3.12.6 (but might work on earlier releases too).<br>
+- Python 3.12.6 (but probably works on earlier releases too).<br>
 - See requirements.txt for required modules.<br>
 
 # Features

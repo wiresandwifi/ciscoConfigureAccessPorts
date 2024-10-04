@@ -1,3 +1,2 @@
-description AccessPort2
-load-interval 30
+description This is an Access Port!
 no shutdown

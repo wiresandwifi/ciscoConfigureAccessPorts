@@ -2,15 +2,13 @@
 # https://wiresandwi.fi
 # https://github.com/wiresandwifi
 
-# Inspired by aaaaaaaaaaaaaaaaaa
-
 import getpass
 import netmiko
 import csv
 import textfsm
 import pprint
-from datetime import datetime
 import colorama
+from datetime import datetime
 from netmiko import ConnectHandler
 from netmiko.exceptions import AuthenticationException
 from netmiko.exceptions import NetMikoTimeoutException
@@ -28,10 +26,6 @@ USER = input("Username: ")
 PASS = getpass.getpass("Password: ")
 # Un-comment below if Enable password is required to log in to the devices
 # ENABLE = getpass.getpass("Enable: ")
-print("\n")
-print("CONNECTING TO DEVICES... ")
-print("\n")
-
 
 # Device template
 device_template = {
@@ -42,7 +36,8 @@ device_template = {
 	"port":22,
 	# Un-comment below below if Enable password needs to be used
 	#"secret": ENABLE,
-	"blocking_timeout": 4 #Default = 8, if timeout problem increase to 16
+	# Default = 8, if timeout problem increase to 16
+	"blocking_timeout": 4
 }
 
 # Keep track of current time for timestamping log files
@@ -58,6 +53,25 @@ failed_devices_reason = []
 
 # Open file with devices information (IP and Port)
 list_of_devices = csv.DictReader(open("devices_to_configure.csv"))
+with open("devices_to_configure.csv") as csv_file:
+    list_of_devices = list(csv.DictReader(csv_file))
+    line_count = len(list_of_devices)
+
+# Inform user of how many network devices will be configured
+print("Configuration will be pushed to Access Ports on " + Fore.CYAN + str(line_count) + Style.RESET_ALL + " devices.")
+# Ask user to confirm to continue
+CONTINUE = input("Continue? [yes/no]: ").strip().lower()
+
+if CONTINUE == "yes":
+    # Continue with the rest of the script
+	print("Continuing the script...")
+	print("\n")
+	print("Connecting to devices...")
+	print("\n")
+else:
+	# This stops the entire script
+    print("Stopping the script.")
+    exit()
 
 # Prepare device_template with information from CSV
 for row in list_of_devices:

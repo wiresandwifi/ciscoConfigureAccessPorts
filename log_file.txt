@@ -1603,3 +1603,4442 @@ Building configuration...
 [OK]
 KSD-LABB-SW03(config)#end
 KSD-LABB-SW03#
+
+Time: 2024-10-04 12:36:36
+Device: 10.215.16.126
+Commands executed:
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/1
+KSD-LABB-SW02(config-if)#description AccessPort
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/2
+KSD-LABB-SW02(config-if)#description AccessPort
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/3
+KSD-LABB-SW02(config-if)#description AccessPort
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/4
+KSD-LABB-SW02(config-if)#description AccessPort
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/5
+KSD-LABB-SW02(config-if)#description AccessPort
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/6
+KSD-LABB-SW02(config-if)#description AccessPort
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/7
+KSD-LABB-SW02(config-if)#description AccessPort
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/8
+KSD-LABB-SW02(config-if)#description AccessPort
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+====== Saving configuration ======configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#do write mem
+Building configuration...
+[OK]
+KSD-LABB-SW02(config)#end
+KSD-LABB-SW02#
+
+Time: 2024-10-04 12:36:36
+Device: 10.215.16.127
+Commands executed:
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/1
+KSD-LABB-SW03(config-if)#description AccessPort
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/2
+KSD-LABB-SW03(config-if)#description AccessPort
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/3
+KSD-LABB-SW03(config-if)#description AccessPort
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/4
+KSD-LABB-SW03(config-if)#description AccessPort
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/5
+KSD-LABB-SW03(config-if)#description AccessPort
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/6
+KSD-LABB-SW03(config-if)#description AccessPort
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/7
+KSD-LABB-SW03(config-if)#description AccessPort
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/8
+KSD-LABB-SW03(config-if)#description AccessPort
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/9
+KSD-LABB-SW03(config-if)#description AccessPort
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/10
+KSD-LABB-SW03(config-if)#description AccessPort
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/11
+KSD-LABB-SW03(config-if)#description AccessPort
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/12
+KSD-LABB-SW03(config-if)#description AccessPort
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+====== Saving configuration ======configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#do write mem
+Building configuration...
+[OK]
+KSD-LABB-SW03(config)#end
+KSD-LABB-SW03#
+
+Time: 2024-10-04 12:37:20
+Device: 10.215.16.126
+Commands executed:
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/1
+KSD-LABB-SW02(config-if)#description AccessPort1
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/2
+KSD-LABB-SW02(config-if)#description AccessPort1
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/3
+KSD-LABB-SW02(config-if)#description AccessPort1
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/4
+KSD-LABB-SW02(config-if)#description AccessPort1
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/5
+KSD-LABB-SW02(config-if)#description AccessPort1
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/6
+KSD-LABB-SW02(config-if)#description AccessPort1
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/7
+KSD-LABB-SW02(config-if)#description AccessPort1
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/8
+KSD-LABB-SW02(config-if)#description AccessPort1
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+====== Saving configuration ======configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#do write mem
+Building configuration...
+[OK]
+KSD-LABB-SW02(config)#end
+KSD-LABB-SW02#
+
+Time: 2024-10-04 12:37:20
+Device: 10.215.16.127
+Commands executed:
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/1
+KSD-LABB-SW03(config-if)#description AccessPort1
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/2
+KSD-LABB-SW03(config-if)#description AccessPort1
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/3
+KSD-LABB-SW03(config-if)#description AccessPort1
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/4
+KSD-LABB-SW03(config-if)#description AccessPort1
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/5
+KSD-LABB-SW03(config-if)#description AccessPort1
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/6
+KSD-LABB-SW03(config-if)#description AccessPort1
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/7
+KSD-LABB-SW03(config-if)#description AccessPort1
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/8
+KSD-LABB-SW03(config-if)#description AccessPort1
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/9
+KSD-LABB-SW03(config-if)#description AccessPort1
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/10
+KSD-LABB-SW03(config-if)#description AccessPort1
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/11
+KSD-LABB-SW03(config-if)#description AccessPort1
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/12
+KSD-LABB-SW03(config-if)#description AccessPort1
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+====== Saving configuration ======configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#do write mem
+Building configuration...
+[OK]
+KSD-LABB-SW03(config)#end
+KSD-LABB-SW03#
+
+Time: 2024-10-04 13:12:56
+Device: 10.215.16.126
+Commands executed:
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/1
+KSD-LABB-SW02(config-if)#description AccessPort1
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/2
+KSD-LABB-SW02(config-if)#description AccessPort1
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/3
+KSD-LABB-SW02(config-if)#description AccessPort1
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/4
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/5
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/6
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/7
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/8
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+====== Saving configuration ======configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#do write mem
+Building configuration...
+[OK]
+KSD-LABB-SW02(config)#end
+KSD-LABB-SW02#
+
+Time: 2024-10-04 13:12:56
+Device: 10.215.16.127
+Commands executed:
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/1
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/2
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/3
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/4
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/5
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/6
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/7
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/8
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/9
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/10
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/11
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/12
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+====== Saving configuration ======configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#do write mem
+Building configuration...
+[OK]
+KSD-LABB-SW03(config)#end
+KSD-LABB-SW03#
+
+Time: 2024-10-04 13:14:32
+Device: 10.215.16.126
+Commands executed:
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/1
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/2
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/3
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/4
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/5
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/6
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/7
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/8
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+====== Saving configuration ======configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#do write mem
+Building configuration...
+[OK]
+KSD-LABB-SW02(config)#end
+KSD-LABB-SW02#
+
+Time: 2024-10-04 13:14:32
+Device: 10.215.16.127
+Commands executed:
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/1
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/2
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/3
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/4
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/5
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/6
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/7
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/8
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/9
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/10
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/11
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/12
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/1/1
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+====== Saving configuration ======configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#do write mem
+Building configuration...
+[OK]
+KSD-LABB-SW03(config)#end
+KSD-LABB-SW03#
+
+Time: 2024-10-04 13:15:14
+Device: 10.215.16.126
+Commands executed:
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/1
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#shutdown
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/2
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#shutdown
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/3
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#shutdown
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/4
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#shutdown
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/5
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#shutdown
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/6
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#shutdown
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/7
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#shutdown
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/8
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#shutdown
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+====== Saving configuration ======configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#do write mem
+Building configuration...
+[OK]
+KSD-LABB-SW02(config)#end
+KSD-LABB-SW02#
+
+Time: 2024-10-04 13:15:14
+Device: 10.215.16.127
+Commands executed:
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/1
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/2
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/3
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/4
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/5
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/6
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/7
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/8
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/9
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/10
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/11
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/12
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/1/1
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+====== Saving configuration ======configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#do write mem
+Building configuration...
+[OK]
+KSD-LABB-SW03(config)#end
+KSD-LABB-SW03#
+
+Time: 2024-10-04 13:15:49
+Device: 10.215.16.126
+Commands executed:
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/1
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#no shutdown
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/2
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#no shutdown
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/3
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#no shutdown
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/4
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#no shutdown
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/5
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#no shutdown
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/6
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#no shutdown
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/7
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#no shutdown
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/8
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#no shutdown
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+====== Saving configuration ======configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#do write mem
+Building configuration...
+[OK]
+KSD-LABB-SW02(config)#end
+KSD-LABB-SW02#
+
+Time: 2024-10-04 13:15:49
+Device: 10.215.16.127
+Commands executed:
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/1
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/2
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/3
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/4
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/5
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/6
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/7
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/8
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/9
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/10
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/11
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/12
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/1/1
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+====== Saving configuration ======configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#do write mem
+Building configuration...
+[OK]
+KSD-LABB-SW03(config)#end
+KSD-LABB-SW03#
+
+Time: 2024-10-04 13:18:22
+Device: 10.215.16.126
+Commands executed:
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/1
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#no shutdown
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/2
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#no shutdown
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/3
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#no shutdown
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/4
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#no shutdown
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/5
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#no shutdown
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/6
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#no shutdown
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/7
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#no shutdown
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/8
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#no shutdown
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+====== Saving configuration ======configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#do write mem
+Building configuration...
+[OK]
+KSD-LABB-SW02(config)#end
+KSD-LABB-SW02#
+
+Time: 2024-10-04 13:18:22
+Device: 10.215.16.127
+Commands executed:
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/1
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/2
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/3
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/4
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/5
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/6
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/7
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/8
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/9
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/10
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/11
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/12
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/1/1
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+====== Saving configuration ======configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#do write mem
+Building configuration...
+[OK]
+KSD-LABB-SW03(config)#end
+KSD-LABB-SW03#
+
+Time: 2024-10-04 13:18:51
+Device: 10.215.16.126
+Commands executed:
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/1
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#no shutdown
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/2
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#no shutdown
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/3
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#no shutdown
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/4
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#no shutdown
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/5
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#no shutdown
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/6
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#no shutdown
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/7
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#no shutdown
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/8
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#no shutdown
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+====== Saving configuration ======configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#do write mem
+Building configuration...
+[OK]
+KSD-LABB-SW02(config)#end
+KSD-LABB-SW02#
+
+Time: 2024-10-04 13:18:51
+Device: 10.215.16.127
+Commands executed:
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/1
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/2
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/3
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/4
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/5
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/6
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/7
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/8
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/9
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/10
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/11
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/12
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/1/1
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+====== Saving configuration ======configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#do write mem
+Building configuration...
+[OK]
+KSD-LABB-SW03(config)#end
+KSD-LABB-SW03#
+
+Time: 2024-10-04 13:24:57
+Device: 10.215.16.126
+Commands executed:
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/1
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#no shutdown
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/2
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#no shutdown
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/3
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#no shutdown
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/4
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#no shutdown
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/5
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#no shutdown
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/6
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#no shutdown
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/7
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#no shutdown
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/8
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#no shutdown
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+====== Saving configuration ======configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#do write mem
+Building configuration...
+[OK]
+KSD-LABB-SW02(config)#end
+KSD-LABB-SW02#
+
+Time: 2024-10-04 13:24:57
+Device: 10.215.16.127
+Commands executed:
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/1
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/2
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/3
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/4
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/5
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/6
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/7
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/8
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/9
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/10
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/11
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/12
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/1/1
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+====== Saving configuration ======configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#do write mem
+Building configuration...
+[OK]
+KSD-LABB-SW03(config)#end
+KSD-LABB-SW03#
+
+Time: 2024-10-04 13:27:37
+Device: 10.215.16.126
+Commands executed:
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/1
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#no shutdown
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/2
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#no shutdown
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/3
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#no shutdown
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/4
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#no shutdown
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/5
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#no shutdown
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/6
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#no shutdown
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/7
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#no shutdown
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/8
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#no shutdown
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+====== Saving configuration ======configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#do write mem
+Building configuration...
+[OK]
+KSD-LABB-SW02(config)#end
+KSD-LABB-SW02#
+
+Time: 2024-10-04 13:27:37
+Device: 10.215.16.127
+Commands executed:
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/1
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/2
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/3
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/4
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/5
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/6
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/7
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/8
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/9
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/10
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/11
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/12
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/1/1
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+====== Saving configuration ======configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#do write mem
+Building configuration...
+[OK]
+KSD-LABB-SW03(config)#end
+KSD-LABB-SW03#
+
+Time: 2024-10-04 13:28:25
+Device: 10.215.16.126
+Unable to access the device (Authentication failed). 
+
+
+Time: 2024-10-04 13:28:25
+Device: 10.215.16.127
+Unable to access the device (Authentication failed). 
+
+
+Time: 2024-10-04 13:29:13
+Device: 10.215.16.126
+Commands executed:
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/1
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#no shutdown
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/2
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#no shutdown
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/3
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#no shutdown
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/4
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#no shutdown
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/5
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#no shutdown
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/6
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#no shutdown
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/7
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#no shutdown
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/8
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#no shutdown
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+====== Saving configuration ======configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#do write mem
+Building configuration...
+[OK]
+KSD-LABB-SW02(config)#end
+KSD-LABB-SW02#
+
+Time: 2024-10-04 13:29:13
+Device: 10.215.16.127
+Commands executed:
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/1
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/2
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/3
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/4
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/5
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/6
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/7
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/8
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/9
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/10
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/11
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/12
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/1/1
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+====== Saving configuration ======configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#do write mem
+Building configuration...
+[OK]
+KSD-LABB-SW03(config)#end
+KSD-LABB-SW03#
+
+Time: 2024-10-04 13:31:29
+Device: 10.215.16.126
+Commands executed:
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/1
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#no shutdown
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/2
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#no shutdown
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/3
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#no shutdown
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/4
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#no shutdown
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/5
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#no shutdown
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/6
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#no shutdown
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/7
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#no shutdown
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/8
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#no shutdown
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+====== Saving configuration ======configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#do write mem
+Building configuration...
+[OK]
+KSD-LABB-SW02(config)#end
+KSD-LABB-SW02#
+
+Time: 2024-10-04 13:31:29
+Device: 10.215.16.127
+Commands executed:
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/1
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/2
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/3
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/4
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/5
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/6
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/7
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/8
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/9
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/10
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/11
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/12
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+====== Saving configuration ======configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#do write mem
+Building configuration...
+[OK]
+KSD-LABB-SW03(config)#end
+KSD-LABB-SW03#
+
+Time: 2024-10-04 13:35:06
+Device: 10.215.16.126
+Commands executed:
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/1
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#no shutdown
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/2
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#no shutdown
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/3
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#no shutdown
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/4
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#no shutdown
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/5
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#no shutdown
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/6
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#no shutdown
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/7
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#no shutdown
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/8
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#no shutdown
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+====== Saving configuration ======configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#do write mem
+Building configuration...
+[OK]
+KSD-LABB-SW02(config)#end
+KSD-LABB-SW02#
+
+Time: 2024-10-04 13:35:06
+Device: 10.215.16.127
+Commands executed:
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/1
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/2
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/3
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/4
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/5
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/6
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/7
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/8
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/9
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/10
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/11
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/12
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+====== Saving configuration ======configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#do write mem
+Building configuration...
+[OK]
+KSD-LABB-SW03(config)#end
+KSD-LABB-SW03#
+
+Time: 2024-10-04 13:38:48
+Device: 10.215.16.126
+Commands executed:
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/1
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#no shutdown
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/2
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#no shutdown
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/3
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#no shutdown
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/4
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#no shutdown
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/5
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#no shutdown
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/6
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#no shutdown
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/7
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#no shutdown
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/8
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#no shutdown
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+====== Saving configuration ======configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#do write mem
+Building configuration...
+[OK]
+KSD-LABB-SW02(config)#end
+KSD-LABB-SW02#
+
+Time: 2024-10-04 13:38:48
+Device: 10.215.16.127
+Commands executed:
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/1
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/2
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/3
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/4
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/5
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/6
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/7
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/8
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/9
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/10
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/11
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/12
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+====== Saving configuration ======configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#do write mem
+Building configuration...
+[OK]
+KSD-LABB-SW03(config)#end
+KSD-LABB-SW03#
+
+Time: 2024-10-04 13:39:42
+Device: 10.215.16.126
+Commands executed:
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/1
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#no shutdown
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/2
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#no shutdown
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/3
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#no shutdown
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/4
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#no shutdown
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/5
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#no shutdown
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/6
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#no shutdown
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/7
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#no shutdown
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/8
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#no shutdown
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+====== Saving configuration ======configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#do write mem
+Building configuration...
+[OK]
+KSD-LABB-SW02(config)#end
+KSD-LABB-SW02#
+
+Time: 2024-10-04 13:39:42
+Device: 10.215.16.127
+Commands executed:
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/1
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/2
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/3
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/4
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/5
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/6
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/7
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/8
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/9
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/10
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/11
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/12
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+====== Saving configuration ======configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#do write mem
+Building configuration...
+[OK]
+KSD-LABB-SW03(config)#end
+KSD-LABB-SW03#
+
+Time: 2024-10-04 13:41:24
+Device: 10.215.16.126
+Commands executed:
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/1
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#no shutdown
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/2
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#no shutdown
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/3
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#no shutdown
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/4
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#no shutdown
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/5
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#no shutdown
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/6
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#no shutdown
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/7
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#no shutdown
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/8
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#no shutdown
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+====== Saving configuration ======configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#do write mem
+Building configuration...
+[OK]
+KSD-LABB-SW02(config)#end
+KSD-LABB-SW02#
+
+Time: 2024-10-04 13:41:24
+Device: 10.215.16.127
+Commands executed:
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/1
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/2
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/3
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/4
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/5
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/6
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/7
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/8
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/9
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/10
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/11
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/12
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+====== Saving configuration ======configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#do write mem
+Building configuration...
+[OK]
+KSD-LABB-SW03(config)#end
+KSD-LABB-SW03#
+
+Time: 2024-10-04 13:42:55
+Device: 10.215.16.126
+Commands executed:
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/1
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#no shutdown
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/2
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#no shutdown
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/3
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#no shutdown
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/4
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#no shutdown
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/5
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#no shutdown
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/6
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#no shutdown
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/7
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#no shutdown
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/8
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#no shutdown
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+====== Saving configuration ======configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#do write mem
+Building configuration...
+[OK]
+KSD-LABB-SW02(config)#end
+KSD-LABB-SW02#
+
+Time: 2024-10-04 13:42:55
+Device: 10.215.16.127
+Commands executed:
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/1
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/2
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/3
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/4
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/5
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/6
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/7
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/8
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/9
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/10
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/11
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/12
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+====== Saving configuration ======configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#do write mem
+Building configuration...
+[OK]
+KSD-LABB-SW03(config)#end
+KSD-LABB-SW03#
+
+Time: 2024-10-04 13:46:02
+Device: 10.215.16.126
+Commands executed:
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/1
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#no shutdown
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/2
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#no shutdown
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/3
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#no shutdown
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/4
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#no shutdown
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/5
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#no shutdown
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/6
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#no shutdown
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/7
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#no shutdown
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/8
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#no shutdown
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+====== Saving configuration ======configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#do write mem
+Building configuration...
+[OK]
+KSD-LABB-SW02(config)#end
+KSD-LABB-SW02#
+
+Time: 2024-10-04 13:46:02
+Device: 10.215.16.127
+Commands executed:
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/1
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/2
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/3
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/4
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/5
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/6
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/7
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/8
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/9
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/10
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/11
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/12
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+====== Saving configuration ======configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#do write mem
+Building configuration...
+[OK]
+KSD-LABB-SW03(config)#end
+KSD-LABB-SW03#
+
+Time: 2024-10-04 13:47:32
+Device: 10.215.16.126
+Commands executed:
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/1
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#no shutdown
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/2
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#no shutdown
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/3
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#no shutdown
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/4
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#no shutdown
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/5
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#no shutdown
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/6
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#no shutdown
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/7
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#no shutdown
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/8
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#no shutdown
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+====== Saving configuration ======configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#do write mem
+Building configuration...
+[OK]
+KSD-LABB-SW02(config)#end
+KSD-LABB-SW02#
+
+Time: 2024-10-04 13:47:32
+Device: 10.215.16.127
+Commands executed:
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/1
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/2
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/3
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/4
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/5
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/6
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/7
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/8
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/9
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/10
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/11
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/12
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+====== Saving configuration ======configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#do write mem
+Building configuration...
+[OK]
+KSD-LABB-SW03(config)#end
+KSD-LABB-SW03#
+Time: 2024-10-04 13:50:13
+Device: 10.215.16.127
+Commands executed:
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/1
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+Time: 2024-10-04 13:50:13
+Device: 10.215.16.126
+Commands executed:
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/2
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/1
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#no shutdown
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/3
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/2
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#no shutdown
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/3
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#no shutdown
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/4
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/4
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#no shutdown
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/5
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/5
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#no shutdown
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/6
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/6
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#no shutdown
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/7
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/7
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#no shutdown
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/8
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#no shutdown
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/8
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/9
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+====== Saving configuration ======
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#do write mem
+Building configuration...
+[OK]
+KSD-LABB-SW02(config)#end
+KSD-LABB-SW02#configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/10
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/11
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/12
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+====== Saving configuration ======
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#do write mem
+Building configuration...
+[OK]
+KSD-LABB-SW03(config)#end
+KSD-LABB-SW03#
+
+Time: 2024-10-04 13:50:45
+Device: 10.215.16.126
+Commands executed:
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/1
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#no shutdown
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+
+Time: 2024-10-04 13:51:03
+Device: 10.215.16.126
+Commands executed:
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/1
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#no shutdown
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/2
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#no shutdown
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/3
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#no shutdown
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/4
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#no shutdown
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/5
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#no shutdown
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/6
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#no shutdown
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/7
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#no shutdown
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/8
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#no shutdown
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+====== Saving configuration ======configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#do write mem
+Building configuration...
+[OK]
+KSD-LABB-SW02(config)#end
+KSD-LABB-SW02#
+
+Time: 2024-10-04 13:51:03
+Device: 10.215.16.127
+Commands executed:
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/1
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/2
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/3
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/4
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/5
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/6
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/7
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/8
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/9
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/10
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/11
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/12
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+====== Saving configuration ======configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#do write mem
+Building configuration...
+[OK]
+KSD-LABB-SW03(config)#end
+KSD-LABB-SW03#
+
+Time: 2024-10-04 13:54:36
+Device: 10.215.16.126
+Commands executed:
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/1
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#no shutdown
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/2
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#no shutdown
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/3
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#no shutdown
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/4
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#no shutdown
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/5
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#no shutdown
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/6
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#no shutdown
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/7
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#no shutdown
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#interface Gi0/8
+KSD-LABB-SW02(config-if)#description AccessPort2
+KSD-LABB-SW02(config-if)#load-interval 30
+KSD-LABB-SW02(config-if)#no shutdown
+KSD-LABB-SW02(config-if)#end
+KSD-LABB-SW02#
+====== Saving configuration ======configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW02(config)#do write mem
+Building configuration...
+[OK]
+KSD-LABB-SW02(config)#end
+KSD-LABB-SW02#
+
+Time: 2024-10-04 13:54:36
+Device: 10.215.16.127
+Commands executed:
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/1
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/2
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/3
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/4
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/5
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/6
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/7
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/8
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/9
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/10
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/11
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#interface Gi1/0/12
+KSD-LABB-SW03(config-if)#description AccessPort2
+KSD-LABB-SW03(config-if)#load-interval 30
+KSD-LABB-SW03(config-if)#no shutdown
+KSD-LABB-SW03(config-if)#end
+KSD-LABB-SW03#
+====== Saving configuration ======configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+KSD-LABB-SW03(config)#do write mem
+Building configuration...
+[OK]
+KSD-LABB-SW03(config)#end
+KSD-LABB-SW03#

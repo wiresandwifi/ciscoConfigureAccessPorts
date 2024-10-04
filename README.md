@@ -5,8 +5,8 @@ Uses a CSV file to import which switches to configure and a simple text file wit
 Useful for deploying access port specific configuration like VLANs, spanning-tree settings, 802.1x/MAB IBNS 1.0/2.0 policies etc.<br>
 
 # Requirements
-- Python 3.12.6 (but might work on earlier releases too)<br>
-- See requirements.txt for needed modules<br>
+- Python 3.12.6 (but might work on earlier releases too).<br>
+- See requirements.txt for required modules.<br>
 
 # Features
 - Supports switches running both IOS-XE and IOS software. 

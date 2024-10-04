@@ -29,7 +29,7 @@ Originally inspired by [andreirapuru/netmiko_send_commands](https://github.com/a
 - Enter username, password (and optionally enable password, see comments in configure_accessport.py).
 - Confirm you want to push commands to X devices.
 - Commands are executed on network devices one by one and logged to textfile.
-- At the end of script, user is informed of failed connections.
+- At the end of script, user is informed of failed connections (if any).
 
 # Support
 - No support is given for this script.

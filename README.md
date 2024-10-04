@@ -23,7 +23,7 @@ Originally inspired by [andreirapuru/netmiko_send_commands](https://github.com/a
 - Install Python.
 - Install modules found in requirements.txt.
   - Use "pip install -r requirements.txt" to install all modules automatically.
-- Configure CSV file with port/service and IP/hostname of network devices.
+- Configure CSV file with port/service and IP address/hostname of network devices.
 - Configure text file commands_to_send.txt with commands to send to network devices.
 - Run configure_accessport.py to start the script.
 - Enter username, password (and optionally enable password, see comments in configure_accessport.py).

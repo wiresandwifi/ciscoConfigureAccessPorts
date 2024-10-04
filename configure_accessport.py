@@ -34,7 +34,7 @@ device_template = {
 	"username": USER,
 	"password": PASS,
 	"port":22,
-	# Un-comment below below if Enable password needs to be used
+	# Un-comment below if Enable password is required to log in to the devices
 	#"secret": ENABLE,
 	# Default = 8, if timeout problem increase to 16
 	"blocking_timeout": 4
@@ -94,7 +94,7 @@ for row in list_of_devices:
 		interface_data = net_connect.send_command("show interfaces switchport", use_textfsm=True)
 		
 		# Print output from show interfaces switchport using pprint for better visibility
-		# Un-comment line below to see parsed result of "show interfaces switchport"
+		# Un-comment line below to see parsed result of "show interfaces switchport" for debugging
 		#pprint.pp(interface_data)
 		# Inform that configuration will be sent to the device
 		print("====== Running commands on", device_template["ip"], "   ======")
@@ -159,7 +159,7 @@ for row in list_of_devices:
 		log.write("Unable to access the device (Authentication failed). ")
 		log.write("\n")
 		print(Fore.BLACK + Back.RED + "====== Unable to access device", device_template["ip"]," ======" + Style.RESET_ALL)
-		# Increase failed_devices variable
+		# Increase failed_devices variable by 1
 		failed_devices_amount += 1
 		# Add(append) IP address of failed device to list "failed_devices_ip"
 		failed_devices_ip.append(device_template["ip"])
@@ -209,7 +209,7 @@ for row in list_of_devices:
 		failed_devices_reason.append("Connection failed (Unknown Error).")
 		log.close()
 
-# If there are failed devices, print the IP address and reason for failure
+# If there are failed devices, print the IP address and reason for failure for those devices
 if failed_devices_amount > 0:
 	print("\n")
 	print(Fore.BLACK + Back.RED + "Failed to connect to", failed_devices_amount, "device(s): " +  Style.RESET_ALL)

@@ -1,11 +1,24 @@
 # Cisco Configure Access Ports
 Python script to configure ONLY access ports on any number of Cisco switches. 
 
-Can send Global Commands too but that is better done using this script (LINK).
+# Requirements
+Python 3.12.6 (but might work on earlier releases too)
+See requirements.txt for needed modules
 
-Works for both IOS-XE and IOS software. 
+# Features
+Support switches running both IOS-XE and IOS software. 
+Support both SSH and Telnet connections.
+Supports both IP and DNS names to connect to switches.
+Includes prompt coloring to make script easier to read.
+Use ntc-templates to parse show command for finding all access ports
+Save results into a log textfile.
 
-Supports both IP and DNS names to connect to Cisco switches.
+# How To Use
+Install Python
+Install modules found in requirements.txt
+Configure CSV file with port/service and IP/hostname of network device
+
+# Example
 
 Preview of number of devices that will be configured and asks to proceed
 ![preview1](https://github.com/user-attachments/assets/ce6e073e-10f9-490a-b96d-c22790c9fa10)

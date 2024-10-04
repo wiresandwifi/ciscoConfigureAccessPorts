@@ -20,7 +20,7 @@ Originally inspired by [andreirapuru/netmiko_send_commands](https://github.com/a
 - Supports both IP and DNS names to connect to network device.
 - Includes prompt coloring to make script easier to read.
 - Uses ntc-templates to parse show command for finding all access ports.
-- Saves results into a log textfile.
+- Saves the results into a log textfile.
 
 # How To Use
 - Install Python.

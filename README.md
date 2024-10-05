@@ -1,4 +1,4 @@
-[![waw-banner](https://github.com/user-attachments/assets/d8ddb7ea-8d0a-46ab-8e6d-92d2517e93e7)](https://wiresandwi.fi)
+[![waw-banner](https://github.com/user-attachments/assets/d8ddb7ea-8d0a-46ab-8e6d-92d2517e93e7)](https://wiresandwi.fi/latest-content)
 
 
 # Cisco Configure Access Ports

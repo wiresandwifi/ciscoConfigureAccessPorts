@@ -8,7 +8,7 @@ Uses a CSV file to import which switches to configure and a simple text file wit
 Useful for deploying access port specific configuration like VLANs, spanning-tree settings, 802.1x/MAB IBNS 1.0/2.0 policies, device tracking etc.<br>
 
 # Credits
-Originally inspired by [andreirapuru/netmiko_send_commands](https://github.com/andreirapuru/netmiko_send_commands)<br>
+Inspired by/built upon [andreirapuru/netmiko_send_commands](https://github.com/andreirapuru/netmiko_send_commands)<br>
 
 # Requirements
 - Python 3.12.6 (but probably works on earlier releases too).<br>

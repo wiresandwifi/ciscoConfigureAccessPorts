@@ -7,9 +7,6 @@ Uses a CSV file to import which switches to configure and a simple text file wit
 
 Useful for deploying access port specific configuration like VLANs, spanning-tree settings, 802.1x/MAB IBNS 1.0/2.0 policies, device tracking etc.<br>
 
-# Credits
-Inspired by/built upon [andreirapuru/netmiko_send_commands](https://github.com/andreirapuru/netmiko_send_commands)<br>
-
 # Requirements
 - Python 3.12.6 (but probably works on earlier releases too).<br>
 - See requirements.txt for required modules.<br>
@@ -51,5 +48,6 @@ Configuration is automatically saved on the network device after commands are ex
 Built-in error handling for unreachable devices, wrong credentials, and more.<br><br>
 ![preview3](https://github.com/user-attachments/assets/aaea0195-efba-4313-aa10-d64dab3c1867)
 
-
+# Credits
+Inspired by/built upon [andreirapuru/netmiko_send_commands](https://github.com/andreirapuru/netmiko_send_commands)<br>
 

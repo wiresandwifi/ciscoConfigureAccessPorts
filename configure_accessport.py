@@ -110,7 +110,7 @@ for row in list_of_devices:
 		log.write("\n")
 		log.close()
 
-		# For-loop to configure interfaces matching "admin_mode" == static access, meaning they are access ports
+		# For-loop to configure interfaces matching "admin_mode" == "static access", meaning they are access ports
 		for interface in interface_data:
 			if interface["admin_mode"] == "static access":
        		# Enter the specific Access Port before executing commands from CSV

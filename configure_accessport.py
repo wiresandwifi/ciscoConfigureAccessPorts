@@ -20,7 +20,6 @@ print(Back.YELLOW)
 print("\n" " .:.:. Script initiated  .:.:.")
 print(Style.RESET_ALL)
 
-
 # Ask user for device credentials (same credentials are used for all devices)
 USER = input("Username: ")
 PASS = getpass.getpass("Password: ")

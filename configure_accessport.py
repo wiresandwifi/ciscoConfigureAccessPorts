@@ -56,8 +56,14 @@ with open("devices_to_configure.csv") as csv_file:
     list_of_devices = list(csv.DictReader(csv_file))
     line_count = len(list_of_devices)
 
+# Check if device count is more than 1 to choose between singular "device" or plural "devices" in next step
+if line_count > 1:
+	amount_of_device = " devices:"
+else:
+	amount_of_device = " device:"
+
 # Inform user of how many network devices will be configured
-print("The following configuration will be pushed to all Access Ports on " + Fore.CYAN + str(line_count) + Style.RESET_ALL + " devices.")
+print("The following configuration will be pushed to all Access Ports on " + Fore.CYAN + str(line_count) + Style.RESET_ALL + amount_of_device)
 print("")
 
 # Inform user of which commands will be sent to the network devices

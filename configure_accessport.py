@@ -58,7 +58,7 @@ with open("devices_to_configure.csv") as csv_file:
     line_count = len(list_of_devices)
 
 # Inform user of how many network devices will be configured
-print("Configuration will be pushed to Access Ports on " + Fore.CYAN + str(line_count) + Style.RESET_ALL + " devices.")
+print("Configuration will be pushed to all Access Ports on " + Fore.CYAN + str(line_count) + Style.RESET_ALL + " devices.")
 # Ask user to confirm to continue
 CONTINUE = input("Continue? [yes/no]: ").strip().lower()
 

@@ -102,7 +102,7 @@ for row in list_of_devices:
 		interface_data = net_connect.send_command("show interfaces switchport", use_textfsm=True)
 		
 		# Print output from show interfaces switchport using pprint for better visibility
-		# Un-comment line below to see parsed result of "show interfaces switchport" for debugging
+		# Un-comment line below to see parsed result of "show interfaces switchport" for debugging purposes
 		#pprint.pp(interface_data)
 		# Inform that configuration will be sent to the device
 		print("====== Running commands on", device_template["ip"], "   ======")

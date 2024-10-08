@@ -57,7 +57,16 @@ with open("devices_to_configure.csv") as csv_file:
     line_count = len(list_of_devices)
 
 # Inform user of how many network devices will be configured
-print("Configuration will be pushed to all Access Ports on " + Fore.CYAN + str(line_count) + Style.RESET_ALL + " devices.")
+print("The following configuration will be pushed to all Access Ports on " + Fore.CYAN + str(line_count) + Style.RESET_ALL + " devices.")
+print("")
+
+# Inform user of which commands will be sent to the network devices
+f = open('commands_to_send.txt', 'r')
+file_contents = f.read()
+print(Fore.CYAN + file_contents + Style.RESET_ALL)
+print("")
+f.close()
+
 # Ask user to confirm to continue
 CONTINUE = input("Continue? [yes/no]: ").strip().lower()
 

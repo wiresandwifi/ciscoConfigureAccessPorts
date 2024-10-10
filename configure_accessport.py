@@ -152,7 +152,7 @@ for row in list_of_devices:
 		save_now = net_connect.send_config_set("do write mem")
 		log = open("log_file.txt", "a")
 		log.write("====== Saving configuration ======")
-		print("\n")
+		log.write('\n')
 		log.write(save_now)
 		# Disconnect from device
 		net_connect.disconnect()

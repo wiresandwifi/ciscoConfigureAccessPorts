@@ -97,6 +97,17 @@ for row in list_of_devices_from_csv:
 
 		# Announce gathering of information from network device is completed
 		print(Fore.GREEN + "Done!" + Style.RESET_ALL)
+		# Log completion of precheck for successful devices
+		log = open("log_file.txt", "a")
+		log.write("\n")
+		log.write("Time: " + current_time)
+		log.write("\n")
+		log.write("Username: " + USER)
+		log.write("\n")
+		log.write("Device: " + device_template["ip"])
+		log.write("\n")
+		log.write("Gathered information from device - Precheck complete. ")
+		log.write("\n")
 		# Disconnect from device
 		net_connect.disconnect()
 		
@@ -110,7 +121,6 @@ for row in list_of_devices_from_csv:
 	# Manage and log authentication failures to devices during precheck
 	except AuthenticationException as err1:
 		log = open("log_file.txt", "a")
-		log.write("\n")
 		log.write("\n")
 		log.write("Time: " + current_time)
 		log.write("\n")
@@ -136,7 +146,7 @@ for row in list_of_devices_from_csv:
 	# Manage and log Timeout Exception (device unreachable) to devices during precheck
 	except NetMikoTimeoutException as err2:
 		log = open("log_file.txt", "a")
-		log.write("\n")
+		#log.write("\n")
 		log.write("\n")
 		log.write("Time: " + current_time)
 		log.write("\n")
@@ -244,7 +254,6 @@ for row in list_of_devices_from_csv:
 		# Open log file and append append timestamp and device IP/hostname
 		log = open("log_file.txt", "a")
 		log.write("\n")
-		log.write("\n")
 		log.write("Time: " + current_time)
 		log.write("\n")
 		log.write("Username: " + USER)
@@ -306,7 +315,6 @@ for row in list_of_devices_from_csv:
 	except AuthenticationException as err1:
 		log = open("log_file.txt", "a")
 		log.write("\n")
-		log.write("\n")
 		log.write("Time: " + current_time)
 		log.write("\n")
 		log.write("Username: " + USER)
@@ -329,7 +337,6 @@ for row in list_of_devices_from_csv:
 	# Manage and log Timeout Exception (device unreachable)
 	except NetMikoTimeoutException as err2:
 		log = open("log_file.txt", "a")
-		log.write("\n")
 		log.write("\n")
 		log.write("Time: " + current_time)
 		log.write("\n")

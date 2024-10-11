@@ -21,10 +21,15 @@ print("\n" " .:.:. Script initiated  .:.:.")
 print(Style.RESET_ALL)
 
 # Ask user for device credentials (same credentials are used for all devices)
+print("\n")
+print("Enter a Username and Password to use to check for Access Ports on the network devices." + "\n")            
 USER = input("Username: ")
 PASS = getpass.getpass("Password: ")
 # Un-comment below if Enable password is required to log in to the devices
 # ENABLE = getpass.getpass("Enable: ")
+
+# Announce connection to network devices to gather number of reachable devices and how many access ports they have
+print("\n" + Fore.YELLOW + "Connecting to network device(s) to find Access Ports..." + Style.RESET_ALL)
 
 # Device template
 device_template = {
@@ -43,6 +48,8 @@ device_template = {
 # Create string variable of current time
 current_time = str(datetime.now().replace(microsecond=0))
 
+# Variables to keep track of number of failed devices and reasons
+# This is summarized and reported at the very end of the script
 # Variable to keep track of failed connections to devices 
 failed_devices_amount = 0
 # List to keep track of device IP addresses 
@@ -51,19 +58,137 @@ failed_devices_ip = []
 failed_devices_reason = []
 
 # Open file with devices information (IP and Port)
-list_of_devices = csv.DictReader(open("devices_to_configure.csv"))
+list_of_devices_from_csv = csv.DictReader(open("devices_to_configure.csv"))
 with open("devices_to_configure.csv") as csv_file:
-    list_of_devices = list(csv.DictReader(csv_file))
-    line_count = len(list_of_devices)
+    list_of_devices_from_csv = list(csv.DictReader(csv_file))
+    count_devices_from_csv = len(list_of_devices_from_csv)
 
-# Check if device count is more than 1 to choose between singular "device" or plural "devices" in next step
-if line_count > 1:
-	amount_of_device = " devices:"
-else:
-	amount_of_device = " device:"
+# Counter for how many access port exist on the network devices in total
+accessport_count = 0
+
+# List to keep track of which network devices failed the precheck (where show command is run)
+# Used to remove these devices from being connected to later on when interface command execution is performed
+failed_precheck_devices = []
+
+# Prepare device_template with information from CSV
+for row in list_of_devices_from_csv:
+	if (row["port"]) == "23":
+		device_template["device_type"] = "cisco_ios_telnet"
+		device_template["port"] = "23"
+		device_template["ip"] = row["ip"]
+	else:
+		device_template["device_type"] = "cisco_ios"
+		device_template["port"] = "22"
+		device_template["ip"] = row["ip"]
+	try:
+		# Connect to device and send initial show command to gather interface data (precheck)
+		# Textfsm template from Network-to-Code (included in NetMiko) is used to parse output from this specific show command
+		# The template will create a list of dictionaries to be used later to match access ports
+		print("Gathering information from network device " + device_template["ip"] + "...")
+		net_connect = ConnectHandler(**device_template)
+		net_connect.enable()
+		check_interfaces = net_connect.send_command("show interfaces switchport", use_textfsm=True)
+
+		# Print output from "show interfaces switchport" using pprint for better visibility
+		# Un-comment line below to see parsed result of "show interfaces switchport" for debugging purposes
+		#pprint.pp(check_interfaces)
+
+		# Announce gathering of information from network device is completed
+		print(Fore.GREEN + "Done!" + Style.RESET_ALL)
+		# Disconnect from device
+		net_connect.disconnect()
+		
+		# Count the interfaces set to Access Port mode on all the network devices
+		for interface in check_interfaces:
+			if interface["admin_mode"] == "static access":
+				accessport_count += 1
+			else:
+				pass
+
+	# Manage and log authentication failures to devices during precheck
+	except AuthenticationException as err1:
+		log = open("log_file.txt", "a")
+		log.write("\n")
+		log.write("\n")
+		log.write("Time: " + current_time)
+		log.write("\n")
+		log.write("Username: " + USER)
+		log.write("\n")
+		log.write("Device: " + device_template["ip"])
+		log.write("\n")
+		log.write("Unable to access the device (Authentication failed). ")
+		log.write("\n")
+		print(Fore.RED + "Could not connect to network device " + device_template["ip"] + " - (Authentication failed)" + Style.RESET_ALL)
+		# Increase failed_devices variable by 1
+		failed_devices_amount += 1
+		# Add(append) IP address of failed device to list "failed_devices_ip"
+		failed_devices_ip.append(device_template["ip"])
+		# Convert exception error "e" to a string and save in new variable
+		# Save first line of converted exception error (contains failure reason) as variable
+		# Add(append) failure reason of failed connection attempt to list "failed_devices_reason"
+		failed_devices_reason.append("Authentication to device failed.")
+		failed_precheck_devices.append(device_template["ip"])
+		count_devices_from_csv -= 1
+		log.close()
+
+	# Manage and log Timeout Exception (device unreachable) to devices during precheck
+	except NetMikoTimeoutException as err2:
+		log = open("log_file.txt", "a")
+		log.write("\n")
+		log.write("\n")
+		log.write("Time: " + current_time)
+		log.write("\n")
+		log.write("Username: " + USER)
+		log.write("\n")
+		log.write("Device: " + device_template["ip"])
+		log.write("\n")
+		log.write("Unable to access the device (Timeout). ")
+		log.write("\n")
+		print(Fore.RED + "Could not connect to network device " + device_template["ip"] + " - (Timeout)" + Style.RESET_ALL)
+		
+		# Increase failed_devices variable
+		failed_devices_amount += 1
+		# Add(append) IP address of failed device to list 
+		failed_devices_ip.append(device_template["ip"])
+		# Add(append) failure reason of failed connection attempt to list
+		failed_devices_reason.append("Connection to device failed (Timeout).")
+		failed_precheck_devices.append(device_template["ip"])
+		count_devices_from_csv -= 1
+		log.close()
+
+	# Manage and log other Exceptions to devices during precheck
+	except SSHException as e:
+		log = open("log_file.txt", "a")
+		log.write("\n")
+		log.write("Time: " + current_time)
+		log.write("\n")
+		log.write("Username: " + USER)
+		log.write("\n")
+		log.write("Device: " + device_template["ip"])
+		log.write("\n")
+		log.write("Unable to access the device (Unknown Error). ")
+		log.write("\n")
+		print(Fore.BLACK + Back.RED + "====== Unable to access device", device_template["ip"]," ======" + Style.RESET_ALL)
+		# Increase failed_devices variable by 1
+		failed_devices_amount += 1
+		# Add(append) IP address of failed device to list 
+		failed_devices_ip.append(device_template["ip"])
+		# Add(append) reason of failed connection attempt to list
+		failed_devices_reason.append("Connection failed (Unknown Error).")
+		failed_precheck_devices.append(device_template["ip"])
+		count_devices_from_csv -= 1
+		log.close()
+
+# If no network devices could be connected to during precheck, abort the whole script at this point
+if count_devices_from_csv == 0:
+    print("\n")
+    print(Fore.BLACK + Back.RED + "Could not connect to any network devices, exiting script..." + Style.RESET_ALL)
+    print("\n")
+    exit()
 
 # Inform user of how many network devices will be configured
-print("The following configuration will be pushed to all Access Ports on " + Fore.CYAN + str(line_count) + Style.RESET_ALL + amount_of_device)
+print("")
+print("The following configuration will be pushed to a total of", Fore.CYAN + str(accessport_count) + Style.RESET_ALL, "Access Ports across", Fore.YELLOW + str(count_devices_from_csv) + Style.RESET_ALL + " device(s)")
 print("")
 
 # Inform user of which commands will be sent to the network devices
@@ -80,15 +205,20 @@ if CONTINUE == "yes":
     # Continue with the rest of the script
 	print("Continuing the script...")
 	print("\n")
-	print("Connecting to devices...")
+	print(Fore.YELLOW + "Connecting to network device(s) to execute commands..." + Style.RESET_ALL)
 	print("\n")
 else:
 	# This stops the entire script
-    print("Stopping the script.")
-    exit()
+	print("\n")
+	print(Fore.BLACK + Back.RED + "Stopping the script." + Style.RESET_ALL)
+	print("\n")
+	exit()
 
 # Prepare device_template with information from CSV
-for row in list_of_devices:
+for row in list_of_devices_from_csv:
+	# Skip connecting to devices that failed the precheck show command
+	if row["ip"] in failed_precheck_devices:
+		continue
 	if (row["port"]) == "23":
 		device_template["device_type"] = "cisco_ios_telnet"
 		device_template["port"] = "23"
@@ -98,7 +228,7 @@ for row in list_of_devices:
 		device_template["port"] = "22"
 		device_template["ip"] = row["ip"]
 	try:
-		# Connect to device and send initial show command to gather interface data
+		# Connect to device and send another show command to gather interface data once again before commands are executed
 		# Textfsm template from Network-to-Code (included in NetMiko) is used to parse output from this specific show command
 		# The template will create a list of dictionaries to be used later to match access ports
 		print ("====== Logging IN to device", device_template["ip"],"   ======")
@@ -107,9 +237,6 @@ for row in list_of_devices:
 		print(Fore.GREEN + "====== CONNECTED! ======" + Style.RESET_ALL)
 		interface_data = net_connect.send_command("show interfaces switchport", use_textfsm=True)
 		
-		# Print output from show interfaces switchport using pprint for better visibility
-		# Un-comment line below to see parsed result of "show interfaces switchport" for debugging purposes
-		#pprint.pp(interface_data)
 		# Inform that configuration will be sent to the device
 		print("====== Running commands on", device_template["ip"], "   ======")
 		# Open log file and append append timestamp and device IP/hostname
@@ -168,6 +295,11 @@ for row in list_of_devices:
 		print ("====== Logging OUT from device", device_template["ip"]," ======")
 		print("\n")
 
+
+	# Manage and log errors in which precheck was OK but execution of commands fails
+	# Should only occur if something happens to network device between precheck and execution
+	# Generally this scenario should be unlikely
+
 	# Manage and log authentication failures to device
 	except AuthenticationException as err1:
 		log = open("log_file.txt", "a")
@@ -212,9 +344,8 @@ for row in list_of_devices:
 		# Add(append) IP address of failed device to list 
 		failed_devices_ip.append(device_template["ip"])
 		# Add(append) failure reason of failed connection attempt to list
-		failed_devices_reason.append("Connection to device failed.")
+		failed_devices_reason.append("Connection to device failed (Timeout).")
 		log.close()
-
 	# Manage and log other Exceptions
 	except SSHException as e:
 		log = open("log_file.txt", "a")
@@ -238,7 +369,7 @@ for row in list_of_devices:
 
 # If there are failed devices, print the IP address and reason for failure for those devices
 if failed_devices_amount > 0:
-	print("\n")
+	#print("\n")
 	print(Fore.BLACK + Back.RED + "Failed to connect to", failed_devices_amount, "device(s): " +  Style.RESET_ALL)
 	# Print IP address and Reason for failed devices
 	for ip, reason in zip(failed_devices_ip, failed_devices_reason):

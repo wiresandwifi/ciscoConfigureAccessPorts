@@ -27,7 +27,8 @@ Useful for deploying Access Port specific configurations like VLANs, spanning-tr
 - Configure text file ("commands_to_send.txt") with commands to send to network devices.
 - Run configure_accessport.py to start the script.
 - Enter username, password (and optionally enable password, see comments in configure_accessport.py).
-- Confirm you want to push commands to X devices.
+- The script will connect to the devices and check for Access Ports.
+- Confirm you want to push commands to X access ports on Y devices.
 - Commands are executed on network devices one by one and logged to textfile.
 - At the end of script, user is informed of failed connections (if any).
 

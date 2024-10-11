@@ -378,7 +378,6 @@ for row in list_of_devices_from_csv:
 
 # If there are failed devices, print the IP address and reason for failure for those devices
 if failed_devices_amount > 0:
-	#print("\n")
 	print(Fore.BLACK + Back.RED + "Failed to connect to", failed_devices_amount, "device(s): " +  Style.RESET_ALL)
 	# Print IP address and Reason for failed devices
 	for ip, reason in zip(failed_devices_ip, failed_devices_reason):

@@ -39,7 +39,7 @@ Useful for deploying Access Port specific configurations like VLANs, spanning-tr
 
 # Example
 
-Preview of number of devices that will be configured and asks to proceed.
+Preview of number of access ports and devices that will be configured, and asks the user for confirmation to proceed.
 User must type "yes" to confirm script start.<br><br>
 ![preview1](https://github.com/user-attachments/assets/d6a0d992-aede-4efa-beb0-c729e455fbfb)
 

@@ -22,7 +22,7 @@ print(Style.RESET_ALL)
 
 # Ask user for device credentials (same credentials are used for all devices)
 print("\n")
-print("Enter a Username and Password to use to check for Access Ports on the network devices." + "\n")
+print("Enter a Username and Password to use for discovering Access Ports on the network devices." + "\n")
 print("Press", Fore.CYAN + "Ctrl + C" + Style.RESET_ALL, "at any time to stop the script." + "\n")
 
 USER = input("Username: ")

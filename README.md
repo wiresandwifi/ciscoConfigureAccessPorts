@@ -40,7 +40,8 @@ Useful for deploying Access Port specific configurations like VLANs, spanning-tr
 
 Preview of number of devices that will be configured and asks to proceed.
 User must type "yes" to confirm script start.<br><br>
-![preview1](https://github.com/user-attachments/assets/1bd5b8a2-9ae9-4679-b56f-9617f3b388be)
+![preview1](https://github.com/user-attachments/assets/075f972c-382a-4155-a2e5-d868c534bcfc)
+
 
 Configuration is automatically saved on the network device after commands are executed.<br><br>
 ![preview2](https://github.com/user-attachments/assets/b6de6f86-8031-4bb0-bb88-9a7b1ed60963)

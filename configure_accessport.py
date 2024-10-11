@@ -22,7 +22,10 @@ print(Style.RESET_ALL)
 
 # Ask user for device credentials (same credentials are used for all devices)
 print("\n")
-print("Enter a Username and Password to use to check for Access Ports on the network devices." + "\n")            
+print("Enter a Username and Password to use to check for Access Ports on the network devices." + "\n")
+#print("Press Ctrl + C at any time to stop the script.")
+print("Press", Fore.CYAN + "Ctrl + C" + Style.RESET_ALL, "at any time to stop the script." + "\n")
+
 USER = input("Username: ")
 PASS = getpass.getpass("Password: ")
 # Un-comment below if Enable password is required to log in to the devices
@@ -188,7 +191,7 @@ if count_devices_from_csv == 0:
 
 # Inform user of how many network devices will be configured
 print("")
-print("The following configuration will be pushed to a total of", Fore.CYAN + str(accessport_count) + Style.RESET_ALL, "Access Ports across", Fore.YELLOW + str(count_devices_from_csv) + Style.RESET_ALL + " device(s)")
+print("The following configuration will be pushed to a total of", Fore.CYAN + str(accessport_count) + Style.RESET_ALL, "Access Ports across", Fore.YELLOW + str(count_devices_from_csv) + Style.RESET_ALL + " device(s):")
 print("")
 
 # Inform user of which commands will be sent to the network devices
@@ -267,7 +270,7 @@ for row in list_of_devices_from_csv:
 					commands = [cmd.strip() for cmd in commands]
 				full_command_list = [enter_interface] + commands
 				output_full_command_list = net_connect.send_config_set(full_command_list)
-				print(output_full_command_list)
+				print(output_full_command_list + "\n")
 
 				# Open log file and append commands that have been run
 				log = open("log_file.txt", "a")
